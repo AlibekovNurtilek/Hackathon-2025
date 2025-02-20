@@ -41,14 +41,15 @@ jobs:
             else
               echo "✅ Репозиторий найден. Обновляем код..."
               cd $APP_DIR
-              git status
+              git reset --hard  # Очищаем возможные локальные изменения
               git pull origin main --rebase || echo "⚠️ Ошибка git pull, продолжаем"
             fi
 
             echo "🔍 Проверяем, изменился ли environment.yml..."
             if git diff --quiet HEAD@{1} HEAD environment.yml; then
-              echo "✅ Зависимости не изменились. Перезапускаем контейнер..."
-              docker-compose restart fastapi
+              echo "✅ Зависимости не изменились. Перезапускаем контейнер с новым кодом..."
+              docker-compose stop fastapi
+              docker-compose up -d --force-recreate fastapi
             else
               echo "🛠️ Зависимости изменились! Пересобираем контейнер..."
               docker-compose down

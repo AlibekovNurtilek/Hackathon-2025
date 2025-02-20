@@ -19,43 +19,38 @@ jobs:
           SERVER_USER: g2004_01013
           SERVER_IP: 35.238.178.114
           APP_DIR: /home/g2004_01013/Hackathon-2025
-          REPO_URL: https://github.com/AlibekovNurtilek/Hackathon-2025.git
+          REPO_URL: https://github.com/AlibekovNurtilek/Hackathon-2025.git  # Указываем ссылку на репозиторий
         run: |
           echo "🔑 Настраиваем SSH-ключ..."
           echo "$SSH_PRIVATE_KEY" > private_key.pem
           chmod 600 private_key.pem
           
           echo "🔗 Подключаемся к серверу и выполняем деплой..."
-          ssh -i private_key.pem -o StrictHostKeyChecking=no $SERVER_USER@$SERVER_IP /bin/bash << 'EOF'
+          ssh -i private_key.pem -o StrictHostKeyChecking=no $SERVER_USER@$SERVER_IP /bin/bash << EOF
             set -e  # Остановить скрипт при ошибке
 
+            echo "🔍 Проверяем путь..."
+            pwd
+            ls -la
+            
             echo "📂 Проверяем, существует ли репозиторий..."
             if [ ! -d "$APP_DIR/.git" ]; then
               echo "⚠️ Репозиторий не найден. Клонируем..."
               rm -rf $APP_DIR
               git clone $REPO_URL $APP_DIR
-            fi
-
-            echo "📂 Переходим в папку проекта..."
-            cd $APP_DIR || { echo "❌ Ошибка: Папка не найдена"; exit 1; }
-
-            echo "🔍 Проверяем изменения в коде..."
-            git fetch origin main
-            if git diff --quiet HEAD origin/main; then
-              echo "✅ Код не изменился. Просто перезапускаем контейнер."
-              docker-compose restart fastapi
-              exit 0
             else
-              echo "🔄 Код обновлен. Обновляем репозиторий..."
+              echo "✅ Репозиторий найден. Обновляем код..."
+              cd $APP_DIR
+              git status
               git pull origin main --rebase || echo "⚠️ Ошибка git pull, продолжаем"
             fi
 
-            echo "🔍 Проверяем, изменились ли зависимости..."
+            echo "🔍 Проверяем, изменился ли environment.yml..."
             if git diff --quiet HEAD@{1} HEAD environment.yml; then
-              echo "✅ Зависимости не изменились. Контейнер пересоздавать не нужно."
+              echo "✅ Зависимости не изменились. Пересборка контейнера не требуется."
               docker-compose up -d
             else
-              echo "🛠️ Обнаружены изменения в зависимостях! Пересобираем контейнер..."
+              echo "🛠️ Зависимости изменились! Пересобираем контейнер..."
               docker-compose down
               docker-compose up -d --build
             fi

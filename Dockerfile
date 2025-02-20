@@ -1,10 +1,13 @@
 FROM continuumio/miniconda3
 
 WORKDIR /app
-COPY . /app
 
-# Устанавливаем зависимости из environment.yml
-RUN conda env create -f environment.yml
+# Копируем только environment.yml для кеширования зависимостей
+COPY environment.yml /tmp/environment.yml
+RUN conda env create -f /tmp/environment.yml
+
+# Копируем код после установки зависимостей (чтобы кеш не сбрасывался)
+COPY . /app
 
 # Настраиваем переменные среды для правильной работы Conda
 ENV CONDA_ENV hackathon_env

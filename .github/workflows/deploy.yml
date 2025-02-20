@@ -16,8 +16,8 @@ jobs:
       - name: Deploy to Server
         env:
           SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_KEY }}
-          SERVER_USER: ubuntu
-          SERVER_IP: 34.29.15.124  # Замени на свой IP
+          SERVER_USER: g2004_01013
+          SERVER_IP: 35.238.178.114  # Замени на свой IP
           APP_DIR: /home/ubuntu/app
         run: |
           echo "$SSH_PRIVATE_KEY" > private_key.pem

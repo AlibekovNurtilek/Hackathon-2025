@@ -19,21 +19,34 @@ jobs:
           SERVER_USER: g2004_01013
           SERVER_IP: 35.238.178.114
           APP_DIR: /home/g2004_01013/Hackathon-2025
+          REPO_URL: git@github.com:AlibekovNurtilek/Hackathon-2025.git
         run: |
+          echo "🔑 Настраиваем SSH-ключ..."
           echo "$SSH_PRIVATE_KEY" > private_key.pem
           chmod 600 private_key.pem
           
-          ssh -i private_key.pem -o StrictHostKeyChecking=no $SERVER_USER@$SERVER_IP << 'EOF'
+          echo "🔗 Подключаемся к серверу и выполняем деплой..."
+          ssh -i private_key.pem -o StrictHostKeyChecking=no $SERVER_USER@$SERVER_IP /bin/bash << 'EOF'
             set -e  # Остановить скрипт при ошибке
-            
-            echo "🔍 Переключаемся в папку проекта..."
-            cd $APP_DIR || { echo "❌ Ошибка: Папка $APP_DIR не найдена"; exit 1; }
 
-            echo "🔄 Сбрасываем локальные изменения и обновляем код..."
-            git reset --hard
-            git pull origin main --rebase
+            echo "🔍 Проверяем путь..."
+            pwd
+            ls -la
+            
+            echo "📂 Проверяем, существует ли репозиторий..."
+            if [ ! -d "$APP_DIR/.git" ]; then
+              echo "⚠️ Репозиторий не найден. Клонируем..."
+              rm -rf $APP_DIR
+              git clone $REPO_URL $APP_DIR
+            else
+              echo "✅ Репозиторий найден. Обновляем код..."
+              cd $APP_DIR
+              git status
+              git pull origin main --rebase || echo "⚠️ Ошибка git pull, продолжаем"
+            fi
 
             echo "🛑 Останавливаем старые контейнеры..."
+            cd $APP_DIR
             docker-compose down || echo "⚠️ Контейнеры не запущены, пропускаем"
 
             echo "🛠️ Пересобираем и запускаем контейнеры..."

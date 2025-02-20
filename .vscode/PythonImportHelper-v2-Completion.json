@@ -1,0 +1,70 @@
+[
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "users",
+        "importPath": "app.routes",
+        "description": "app.routes",
+        "isExtraImport": true,
+        "detail": "app.routes",
+        "documentation": {}
+    },
+    {
+        "label": "items",
+        "importPath": "app.routes",
+        "description": "app.routes",
+        "isExtraImport": true,
+        "detail": "app.routes",
+        "documentation": {}
+    },
+    {
+        "label": "get_users",
+        "kind": 2,
+        "importPath": "app.routes.users",
+        "description": "app.routes.users",
+        "peekOfCode": "def get_users():\n    return {\"users\": [\"Tyny\", \"Erji\", \"Tanos\"]}",
+        "detail": "app.routes.users",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.routes.users",
+        "description": "app.routes.users",
+        "peekOfCode": "router = APIRouter()\n@router.get(\"/\")\ndef get_users():\n    return {\"users\": [\"Tyny\", \"Erji\", \"Tanos\"]}",
+        "detail": "app.routes.users",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "def home():\n    return {\"message\": \"FastAPI with Conda is running!\"}",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "app = FastAPI(title=\"FastAPI + Conda Project\")\n# Подключаем маршруты\napp.include_router(users.router, prefix=\"/users\", tags=[\"Users\"])\n@app.get(\"/\")\ndef home():\n    return {\"message\": \"FastAPI with Conda is running!\"}",
+        "detail": "app.main",
+        "documentation": {}
+    }
+]

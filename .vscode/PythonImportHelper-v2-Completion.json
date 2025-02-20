@@ -63,7 +63,7 @@
         "kind": 5,
         "importPath": "app.main",
         "description": "app.main",
-        "peekOfCode": "app = FastAPI(title=\"Hackathon-2025\")\n# Подключаем маршруты\napp.include_router(users.router, prefix=\"/users\", tags=[\"Users\"])\n@app.get(\"/\")\ndef home():\n    return {\"message\": \"FastAPI with Conda is running!\"}",
+        "peekOfCode": "app = FastAPI(title=\"Hackathon-2025 API\")\n# Подключаем маршруты\napp.include_router(users.router, prefix=\"/users\", tags=[\"Users\"])\n@app.get(\"/\")\ndef home():\n    return {\"message\": \"FastAPI with Conda is running!\"}",
         "detail": "app.main",
         "documentation": {}
     }

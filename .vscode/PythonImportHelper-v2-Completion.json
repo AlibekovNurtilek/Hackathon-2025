@@ -36,7 +36,7 @@
         "kind": 2,
         "importPath": "app.routes.users",
         "description": "app.routes.users",
-        "peekOfCode": "def get_users():\n    return {\"users\": [\"Tyny\", \"Erji\", \"Tanos\"]}",
+        "peekOfCode": "def get_users():\n    return {\"users\": [\"Tyny\", \"Erji\", \"Tanos\", \"Nurtilek\"]}",
         "detail": "app.routes.users",
         "documentation": {}
     },
@@ -45,7 +45,7 @@
         "kind": 5,
         "importPath": "app.routes.users",
         "description": "app.routes.users",
-        "peekOfCode": "router = APIRouter()\n@router.get(\"/\")\ndef get_users():\n    return {\"users\": [\"Tyny\", \"Erji\", \"Tanos\"]}",
+        "peekOfCode": "router = APIRouter()\n@router.get(\"/\")\ndef get_users():\n    return {\"users\": [\"Tyny\", \"Erji\", \"Tanos\", \"Nurtilek\"]}",
         "detail": "app.routes.users",
         "documentation": {}
     },
@@ -63,7 +63,7 @@
         "kind": 5,
         "importPath": "app.main",
         "description": "app.main",
-        "peekOfCode": "app = FastAPI(title=\"FastAPI + Conda Project\")\n# Подключаем маршруты\napp.include_router(users.router, prefix=\"/users\", tags=[\"Users\"])\n@app.get(\"/\")\ndef home():\n    return {\"message\": \"FastAPI with Conda is running!\"}",
+        "peekOfCode": "app = FastAPI(title=\"Hackathon-2025\")\n# Подключаем маршруты\napp.include_router(users.router, prefix=\"/users\", tags=[\"Users\"])\n@app.get(\"/\")\ndef home():\n    return {\"message\": \"FastAPI with Conda is running!\"}",
         "detail": "app.main",
         "documentation": {}
     }

@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from app.routes import users, items
 
-app = FastAPI(title="FastAPI + Conda Project")
+app = FastAPI(title="Hackathon-2025")
 
 # Подключаем маршруты
 app.include_router(users.router, prefix="/users", tags=["Users"])

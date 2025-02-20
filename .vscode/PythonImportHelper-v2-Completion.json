@@ -36,7 +36,7 @@
         "kind": 2,
         "importPath": "app.routes.users",
         "description": "app.routes.users",
-        "peekOfCode": "def get_users():\n    return {\"users\": [\"Tyny\", \"Erji\", \"Tanos\", \"Nurtilek\"]}",
+        "peekOfCode": "def get_users():\n    return {\"users\": [\"NS\", \"GJN\", \"FJDF\", \"GNR\"]}",
         "detail": "app.routes.users",
         "documentation": {}
     },
@@ -45,7 +45,7 @@
         "kind": 5,
         "importPath": "app.routes.users",
         "description": "app.routes.users",
-        "peekOfCode": "router = APIRouter()\n@router.get(\"/\")\ndef get_users():\n    return {\"users\": [\"Tyny\", \"Erji\", \"Tanos\", \"Nurtilek\"]}",
+        "peekOfCode": "router = APIRouter()\n@router.get(\"/\")\ndef get_users():\n    return {\"users\": [\"NS\", \"GJN\", \"FJDF\", \"GNR\"]}",
         "detail": "app.routes.users",
         "documentation": {}
     },

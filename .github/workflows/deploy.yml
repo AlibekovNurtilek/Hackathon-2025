@@ -47,9 +47,8 @@ jobs:
 
             echo "🔍 Проверяем, изменился ли environment.yml..."
             if git diff --quiet HEAD@{1} HEAD environment.yml; then
-              echo "✅ Зависимости не изменились. Перезапускаем контейнер с новым кодом..."
-              docker-compose stop fastapi
-              docker-compose up -d --force-recreate fastapi
+              echo "✅ Зависимости не изменились. Обновляем контейнер с новым кодом..."
+              docker-compose up -d --force-recreate --no-deps --build fastapi
             else
               echo "🛠️ Зависимости изменились! Пересобираем контейнер..."
               docker-compose down

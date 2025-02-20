@@ -18,13 +18,27 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_KEY }}
           SERVER_USER: g2004_01013
           SERVER_IP: 35.238.178.114 
-          APP_DIR: /home/ubuntu/app
+          APP_DIR: /home/g2004_01013/Hackathon-2025
         run: |
           echo "$SSH_PRIVATE_KEY" > private_key.pem
           chmod 600 private_key.pem
+          
           ssh -i private_key.pem -o StrictHostKeyChecking=no $SERVER_USER@$SERVER_IP << 'EOF'
-            cd $APP_DIR
+            set -e  # Остановить скрипт при ошибке
+            
+            cd $APP_DIR || { echo "Папка $APP_DIR не найдена"; exit 1; }
+            
+            echo "Fetching latest code..."
+            git reset --hard
             git pull origin main
+            
+            echo "Stopping old containers..."
             docker-compose down
+            
+            echo "Rebuilding and starting containers..."
             docker-compose up -d --build
+            
+            echo "Deployment complete!"
           EOF
+          
+          rm -f private_key.pem  # Удаляем ключ после выполнения

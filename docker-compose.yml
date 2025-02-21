@@ -9,4 +9,4 @@ services:
     environment:
       - CONDA_ENV=hackathon_env
     volumes:
-      - /home/g2004_01013/sqlite_data:/app/sqlite_data  # Храним БД вне контейнера
+      - /home/g2004_01013/sqlite_data:/app/database  # Теперь путь правильный

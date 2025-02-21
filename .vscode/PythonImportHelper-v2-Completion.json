@@ -363,6 +363,14 @@
         "documentation": {}
     },
     {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
         "label": "users",
         "importPath": "app.routes",
         "description": "app.routes",
@@ -577,7 +585,7 @@
         "kind": 5,
         "importPath": "app.main",
         "description": "app.main",
-        "peekOfCode": "app = FastAPI(title=\"Hackathon-2025 API\")\n# Создаём таблицы, если их нет\nBase.metadata.create_all(bind=engine)\n# Подключаем маршруты\napp.include_router(users.router)\n@app.get(\"/\")\ndef home():\n    return {\"message\": \"FastAPI with Conda is running!\"}",
+        "peekOfCode": "app = FastAPI(title=\"Hackathon-2025 API\")\n# Разрешаем CORS для всех источников (*), методов и заголовков\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],  # Разрешаем все источники\n    allow_credentials=True,\n    allow_methods=[\"*\"],  # Разрешаем все методы (GET, POST, PUT, DELETE и т. д.)\n    allow_headers=[\"*\"],  # Разрешаем все заголовки\n)\n# Создаём таблицы, если их нет",
         "detail": "app.main",
         "documentation": {}
     },

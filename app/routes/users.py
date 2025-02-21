@@ -1,4 +1,4 @@
-from urllib.request import Request
+from fastapi import Request
 
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session

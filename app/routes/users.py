@@ -20,46 +20,46 @@ def register(user_data: UserCreate, db: Session = Depends(get_db)):
     return {"message": "User registered successfully", "username": db_user.username}
 
 
-# # Эндпоинт для логина и получения JWT
-# @router.post("/token", response_model=Token)
-# def login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):
-#     user = authenticate_user(db, form_data.username, form_data.password)
-#     if not user:
-#         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid credentials")
-#
-#     access_token, refresh_token = generate_tokens(user, db)
-#
-#     return {
-#         "access_token": access_token,
-#         "refresh_token": refresh_token,
-#         "token_type": "bearer"
-#     }
-
+# Эндпоинт для логина и получения JWT
 @router.post("/token", response_model=Token)
-async def login(request: Request, db: Session = Depends(get_db)):
-    content_type = request.headers.get("content-type", "")
-
-    if "application/json" in content_type.lower():
-        # Читаем JSON
-        data = await request.json()
-        username = data.get("username")
-        password = data.get("password")
-    else:
-        # Иначе используем OAuth2PasswordRequestForm (x-www-form-urlencoded)
-        form = await request.form()
-        username = form.get("username")
-        password = form.get("password")
-
-    user = authenticate_user(db, username, password)
+def login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):
+    user = authenticate_user(db, form_data.username, form_data.password)
     if not user:
-        raise HTTPException(status_code=401, detail="Invalid credentials")
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid credentials")
 
     access_token, refresh_token = generate_tokens(user, db)
+
     return {
         "access_token": access_token,
         "refresh_token": refresh_token,
         "token_type": "bearer"
     }
+
+# @router.post("/token", response_model=Token)
+# async def login(request: Request, db: Session = Depends(get_db)):
+#     content_type = request.headers.get("content-type", "")
+#
+#     if "application/json" in content_type.lower():
+#         # Читаем JSON
+#         data = await request.json()
+#         username = data.get("username")
+#         password = data.get("password")
+#     else:
+#         # Иначе используем OAuth2PasswordRequestForm (x-www-form-urlencoded)
+#         form = await request.form()
+#         username = form.get("username")
+#         password = form.get("password")
+#
+#     user = authenticate_user(db, username, password)
+#     if not user:
+#         raise HTTPException(status_code=401, detail="Invalid credentials")
+#
+#     access_token, refresh_token = generate_tokens(user, db)
+#     return {
+#         "access_token": access_token,
+#         "refresh_token": refresh_token,
+#         "token_type": "bearer"
+#     }
 
 
 @router.post("/refresh")

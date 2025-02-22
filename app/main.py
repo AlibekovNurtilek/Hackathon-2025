@@ -4,6 +4,8 @@ from app.routes import users, items
 from app.database.database import engine, Base
 import app.database.models  # Импортируем, чтобы SQLAlchemy знал о таблицах
 from app.database.import_data.start_import import start_import
+from app.routes.programs import router as programs_router
+
 app = FastAPI(title="Hackathon-2025 API")
 
 # Разрешаем CORS для всех источников (*), методов и заголовков
@@ -22,6 +24,8 @@ Base.metadata.create_all(bind=engine)
 
 # Подключаем маршруты
 app.include_router(users.router)
+app.include_router(programs_router)
+
 
 @app.get("/")
 def home():

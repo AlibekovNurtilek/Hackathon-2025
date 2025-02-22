@@ -37,6 +37,7 @@ def login(user_data: UserCreate, db: Session = Depends(get_db)):
     access_token, refresh_token = generate_tokens(user, db)
 
     return {
+        "username": user.username,
         "access_token": access_token,
         "refresh_token": refresh_token,
         "token_type": "bearer"
@@ -82,6 +83,7 @@ def refresh_token(refresh_token: str, db: Session = Depends(get_db)):
         access_token, new_refresh_token = generate_tokens(user, db)
 
         return {
+            "username": user.username,
             "access_token": access_token,
             "refresh_token": new_refresh_token,
             "token_type": "bearer"

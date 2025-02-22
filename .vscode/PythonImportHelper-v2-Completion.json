@@ -258,14 +258,6 @@
         "documentation": {}
     },
     {
-        "label": "Base",
-        "importPath": "app.database.database",
-        "description": "app.database.database",
-        "isExtraImport": true,
-        "detail": "app.database.database",
-        "documentation": {}
-    },
-    {
         "label": "get_db",
         "importPath": "app.database.database",
         "description": "app.database.database",
@@ -1130,7 +1122,7 @@
         "kind": 5,
         "importPath": "app.main",
         "description": "app.main",
-        "peekOfCode": "app = FastAPI(title=\"Hackathon-2025 API\")\n# Разрешаем CORS для всех источников (*), методов и заголовков\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],  # Разрешаем все источники\n    allow_credentials=True,\n    allow_methods=[\"*\"],  # Разрешаем все методы (GET, POST, PUT, DELETE и т. д.)\n    allow_headers=[\"*\"],  # Разрешаем все заголовки\n)\n# Создаём таблицы, если их нет",
+        "peekOfCode": "app = FastAPI(title=\"Hackathon-2025 API\")\n# Разрешаем CORS для всех источников (*), методов и заголовков\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],  # Разрешаем все источники\n    allow_credentials=True,\n    allow_methods=[\"*\"],  # Разрешаем все методы (GET, POST, PUT, DELETE и т. д.)\n    allow_headers=[\"*\"],  # Разрешаем все заголовки\n)\nprint(f\"📌 Используемая БД: {engine.url}\")",
         "detail": "app.main",
         "documentation": {}
     },

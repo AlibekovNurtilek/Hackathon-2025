@@ -125,4 +125,3 @@ def import_all_programs():
         print(f"❌ Ошибка при импорте программ: {e}")
     finally:
         db.close()
-

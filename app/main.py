@@ -14,11 +14,11 @@ app.add_middleware(
     allow_methods=["*"],  # Разрешаем все методы (GET, POST, PUT, DELETE и т. д.)
     allow_headers=["*"],  # Разрешаем все заголовки
 )
+print(f"📌 Используемая БД: {engine.url}")
 
-# Создаём таблицы, если их нет
 Base.metadata.create_all(bind=engine)
 
-#start_import()
+start_import()
 
 # Подключаем маршруты
 app.include_router(users.router)

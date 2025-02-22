@@ -13,11 +13,20 @@ from app.config import SECRET_KEY, ALGORITHM
 router = APIRouter(prefix="/users", tags=["Users"])
 
 
-# Эндпоинт для регистрации пользователя
-@router.post("/register")
+@router.post("/register", response_model=Token)
 def register(user_data: UserCreate, db: Session = Depends(get_db)):
+    # Создаем пользователя
     db_user = create_user(db, user_data)
-    return {"message": "User registered successfully", "username": db_user.username}
+    
+    # Генерируем токены для нового пользователя
+    access_token, refresh_token = generate_tokens(db_user, db)
+    
+    return {
+        "access_token": access_token,
+        "refresh_token": refresh_token,
+        "token_type": "bearer"
+    }
+
 
 
 # Эндпоинт для логина и получения JWT

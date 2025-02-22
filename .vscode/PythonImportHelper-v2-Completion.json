@@ -997,7 +997,7 @@
         "kind": 2,
         "importPath": "app.routes.items",
         "description": "app.routes.items",
-        "peekOfCode": "def extract_number_from_string(text):\n    \"\"\"Извлекает числовое значение (GPA, GRE, IELTS и т. д.) из строки.\"\"\"\n    if not text:\n        return None\n    numbers = re.findall(r\"\\d+\\.?\\d*\", text)  # Ищем числа (с точкой или без)\n    return float(numbers[0]) if numbers else None  # Берём первое найденное число\n@router.post(\"/programs/filter\", summary=\"Фильтрация программ по JSON-фильтру\")\ndef filter_programs(filters: dict, db: Session = Depends(get_db)):\n    query = db.query(Program)\n    # 1️⃣ Фильтр по `location` (учитывает массив значений)",
+        "peekOfCode": "def extract_number_from_string(text: str):\n    \"\"\"Извлекает числовое значение (GPA, GRE, IELTS и т. д.) из строки.\"\"\"\n    if not text:\n        return None\n    numbers = re.findall(r\"\\d+\\.?\\d*\", text)\n    return float(numbers[0]) if numbers else None\n@router.post(\"/programs/filter\", summary=\"Фильтрация программ по JSON-фильтру\")\ndef filter_programs(filters: dict, db: Session = Depends(get_db)):\n    query = db.query(Program)\n    # 1️⃣ Фильтр по `location`",
         "detail": "app.routes.items",
         "documentation": {}
     },
@@ -1006,7 +1006,7 @@
         "kind": 2,
         "importPath": "app.routes.items",
         "description": "app.routes.items",
-        "peekOfCode": "def filter_programs(filters: dict, db: Session = Depends(get_db)):\n    query = db.query(Program)\n    # 1️⃣ Фильтр по `location` (учитывает массив значений)\n    user_locations = filters.get(\"course_details\", {}).get(\"location\", [])\n    if user_locations:\n        query = query.filter(\n            or_(*[Program.location.ilike(f\"%{loc}%\") for loc in user_locations])\n        )\n    # 2️⃣ Фильтр по `field_of_study` и `subject`\n    if filters.get(\"field_of_study\"):",
+        "peekOfCode": "def filter_programs(filters: dict, db: Session = Depends(get_db)):\n    query = db.query(Program)\n    # 1️⃣ Фильтр по `location`\n    user_locations = filters.get(\"course_details\", {}).get(\"location\", [])\n    if user_locations:\n        query = query.filter(\n            or_(*[Program.location.ilike(f\"%{loc}%\") for loc in user_locations])\n        )\n    # 2️⃣ Фильтр по `field_of_study` и `subject`\n    if filters.get(\"field_of_study\"):",
         "detail": "app.routes.items",
         "documentation": {}
     },
@@ -1015,7 +1015,7 @@
         "kind": 5,
         "importPath": "app.routes.items",
         "description": "app.routes.items",
-        "peekOfCode": "router = APIRouter()\ndef extract_number_from_string(text):\n    \"\"\"Извлекает числовое значение (GPA, GRE, IELTS и т. д.) из строки.\"\"\"\n    if not text:\n        return None\n    numbers = re.findall(r\"\\d+\\.?\\d*\", text)  # Ищем числа (с точкой или без)\n    return float(numbers[0]) if numbers else None  # Берём первое найденное число\n@router.post(\"/programs/filter\", summary=\"Фильтрация программ по JSON-фильтру\")\ndef filter_programs(filters: dict, db: Session = Depends(get_db)):\n    query = db.query(Program)",
+        "peekOfCode": "router = APIRouter()\ndef extract_number_from_string(text: str):\n    \"\"\"Извлекает числовое значение (GPA, GRE, IELTS и т. д.) из строки.\"\"\"\n    if not text:\n        return None\n    numbers = re.findall(r\"\\d+\\.?\\d*\", text)\n    return float(numbers[0]) if numbers else None\n@router.post(\"/programs/filter\", summary=\"Фильтрация программ по JSON-фильтру\")\ndef filter_programs(filters: dict, db: Session = Depends(get_db)):\n    query = db.query(Program)",
         "detail": "app.routes.items",
         "documentation": {}
     },

@@ -1,0 +1,64 @@
+{
+    "course_details": {
+        "course_title": "Postgraduate Programme in Environmental Physics – Atmosphere, Ocean, Ice, Land, Climate – PEP",
+        "university": "University of Bremen",
+        "location": "Bremen",
+        "duration": "4 semesters",
+        "tuition_fees": "None",
+        "language_of_instruction": null,
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": "C1",
+                "Toefl": null,
+                "IELTS": null,
+                "CPE": null
+            },
+            "German": null,
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": null,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": null
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": "GRE subject test might be required"
+        },
+        "application_deadline": [
+            "2024-07-15"
+        ]
+    },
+    "field_of_study": [
+        "Mathematics, Natural Sciences"
+    ],
+    "subject": [
+        "Physics, Astronomy"
+    ],
+    "application_link": "https://www.uni-bremen.de/en/master"
+}

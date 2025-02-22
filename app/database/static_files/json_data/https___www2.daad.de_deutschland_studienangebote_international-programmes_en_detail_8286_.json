@@ -1,0 +1,65 @@
+{
+    "course_details": {
+        "course_title": "Biblical Studies",
+        "university": "University of Bonn",
+        "location": "Bonn",
+        "duration": "2 semesters",
+        "tuition_fees": "None",
+        "language_of_instruction": "English",
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": "B2",
+                "Toefl": null,
+                "IELTS": null,
+                "CPE": "of Proficiency in English or equivalent"
+            },
+            "German": null,
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": null,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": null
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": null
+        },
+        "application_deadline": [
+            "2024-04-30",
+            "2024-07-01"
+        ]
+    },
+    "field_of_study": [
+        "Languages and Cultural Studies"
+    ],
+    "subject": [
+        "Protestant Theology"
+    ],
+    "application_link": "https://application.uni-bonn.de"
+}

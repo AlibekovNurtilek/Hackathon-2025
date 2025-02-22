@@ -1,0 +1,70 @@
+{
+    "course_details": {
+        "course_title": "Railway Systems Engineering",
+        "university": "RWTH Aachen University",
+        "location": "Aachen",
+        "duration": "4 semesters",
+        "tuition_fees": "None",
+        "language_of_instruction": "English",
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": "B2",
+                "Toefl": null,
+                "IELTS": null,
+                "CPE": null
+            },
+            "German": null,
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": null,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": null
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": "Required. Applicants who are nationals of a member state of the European Union or of the European Economic Area (EEA) are exempt from this requirement."
+        },
+        "application_deadline": [
+            "2024-07-15",
+            "2025-01-15",
+            "2025-03-01",
+            "2024-09-01"
+        ]
+    },
+    "field_of_study": [
+        "Engineering"
+    ],
+    "subject": [
+        "Civil Engineering",
+        "Mechanical Engineering / Process Engineering",
+        "Electrical Engineering",
+        "Transport Engineering, Nautical Science"
+    ],
+    "application_link": "http://www.rwth-aachen.de/go/id/dqml/lidx/1/"
+}

@@ -1,0 +1,65 @@
+{
+    "course_details": {
+        "course_title": "Cellular and Immunological Biosciences – From Single Cells to Plants, Animals, and Humans (MSc)",
+        "university": "University of Tübingen",
+        "location": "Tübingen",
+        "duration": "4 semesters",
+        "tuition_fees": "1,500 EUR",
+        "language_of_instruction": null,
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": "B2",
+                "Toefl": "95",
+                "IELTS": "6.0",
+                "CPE": null
+            },
+            "German": "Goethe-Zertifikat A2, Telc A2, ÖSD A2; or German as native language; or a BSc degree with German as teaching language.",
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": 2.5,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": null
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": null
+        },
+        "application_deadline": [
+            "2024-05-31"
+        ]
+    },
+    "field_of_study": [
+        "Mathematics, Natural Sciences"
+    ],
+    "subject": [
+        "Biology"
+    ],
+    "gpa": 2.5,
+    "application_link": "https://uni-tuebingen.de/en/4204"
+}

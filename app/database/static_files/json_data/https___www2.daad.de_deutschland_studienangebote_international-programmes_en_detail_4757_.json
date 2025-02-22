@@ -1,0 +1,70 @@
+{
+    "course_details": {
+        "course_title": "MSc Management and Engineering in Technology, Innovation, Marketing and Entrepreneurship (MME TIME)",
+        "university": "RWTH Aachen University",
+        "location": "Aachen",
+        "duration": "3 semesters",
+        "tuition_fees": "10,000 EUR",
+        "language_of_instruction": null,
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": "B2",
+                "Toefl": null,
+                "IELTS": null,
+                "CPE": null
+            },
+            "German": null,
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": null,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": null
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": null
+        },
+        "application_deadline": [
+            "2024-08-31",
+            "2024-03-01",
+            "2024-01-15"
+        ]
+    },
+    "field_of_study": [
+        "Engineering",
+        "Law, Economics and Social Sciences"
+    ],
+    "subject": [
+        "Mechanical Engineering / Process Engineering",
+        "Business and Economics",
+        "Engineering in general",
+        "Industrial Engineering"
+    ],
+    "application_link": "https://www.business-school.rwth-aachen.de/en/apply/"
+}

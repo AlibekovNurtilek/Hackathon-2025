@@ -1,0 +1,63 @@
+{
+    "course_details": {
+        "course_title": "Automotive Systems",
+        "university": "Esslingen University of Applied Sciences",
+        "location": "Esslingen am Neckar",
+        "duration": "3 semesters",
+        "tuition_fees": "1,500 EUR",
+        "language_of_instruction": null,
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": null,
+                "Toefl": null,
+                "IELTS": null,
+                "CPE": ""
+            },
+            "German": "Proof of German language skills at level A2 must be provided at the end of the second semester.",
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": null,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": null
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": null
+        },
+        "application_deadline": [
+            "2024-03-31"
+        ]
+    },
+    "field_of_study": [
+        "Engineering"
+    ],
+    "subject": [
+        "Engineering in general"
+    ]
+}

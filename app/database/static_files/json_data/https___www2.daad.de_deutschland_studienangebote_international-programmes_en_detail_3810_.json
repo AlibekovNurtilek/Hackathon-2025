@@ -1,0 +1,66 @@
+{
+    "course_details": {
+        "course_title": "Master of Science in Nuclear Applications (MNA)",
+        "university": "FH Aachen University of Applied Sciences",
+        "location": "Jülich",
+        "duration": "4 semesters",
+        "tuition_fees": "None",
+        "language_of_instruction": null,
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": null,
+                "Toefl": "68",
+                "IELTS": null,
+                "CPE": null
+            },
+            "German": "German level B1 is required for admission. The admission committee can grant you an extension until the end of the second semester.",
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": null,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": null
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": null
+        },
+        "application_deadline": []
+    },
+    "field_of_study": [
+        "Mathematics, Natural Sciences",
+        "Engineering"
+    ],
+    "subject": [
+        "Physics, Astronomy",
+        "Engineering in general",
+        "Mathematics, Natural Sciences in general",
+        "Chemistry"
+    ],
+    "application_link": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3810/"
+}

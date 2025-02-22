@@ -1,0 +1,64 @@
+{
+    "course_details": {
+        "course_title": "Business Administration, Specialisation in International Business Administration",
+        "university": "Catholic University of Eichstätt-Ingolstadt",
+        "location": "Ingolstadt",
+        "duration": "4 semesters",
+        "tuition_fees": "None",
+        "language_of_instruction": "English",
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": "B2",
+                "Toefl": null,
+                "IELTS": null,
+                "CPE": null
+            },
+            "German": "level A2 must be achieved by the end of the second semester",
+            "French": "level A2 or better for applicants who wish to study at the Toulouse Business School. Must be achieved by the end of the second semester",
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": null,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": "not required"
+        },
+        "standardized_tests": {
+            "GMAT": "550 or better (for applicants who obtained their first university degree outside the European Union)",
+            "GRE": "300 or better (for applicants who obtained their first university degree outside the European Union)"
+        },
+        "application_deadline": [
+            "2024-06-15"
+        ]
+    },
+    "field_of_study": [
+        "Law, Economics and Social Sciences"
+    ],
+    "subject": [
+        "Business and Economics"
+    ],
+    "application_link": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7047/"
+}

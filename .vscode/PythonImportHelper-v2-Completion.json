@@ -1,42 +1,27 @@
 [
     {
-        "label": "create_engine",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
+        "label": "json",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "sqlalchemy",
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
         "documentation": {}
     },
     {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "sqlalchemy",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "declarative_base",
-        "importPath": "sqlalchemy.ext.declarative",
-        "description": "sqlalchemy.ext.declarative",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.ext.declarative",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
@@ -48,6 +33,22 @@
         "documentation": {}
     },
     {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
         "label": "Session",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
@@ -61,6 +62,151 @@
         "description": "sqlalchemy.orm",
         "isExtraImport": true,
         "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "app.database.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "FieldOfStudy",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "Subject",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "fields_subjects",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "University",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "Program",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "Requirement",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "FieldOfStudy",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "Subject",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "program_requirements",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "program_fields",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "program_subjects",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "app.database.database",
+        "description": "app.database.database",
+        "isExtraImport": true,
+        "detail": "app.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "app.database.database",
+        "description": "app.database.database",
+        "isExtraImport": true,
+        "detail": "app.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.database.database",
+        "description": "app.database.database",
+        "isExtraImport": true,
+        "detail": "app.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.database.database",
+        "description": "app.database.database",
+        "isExtraImport": true,
+        "detail": "app.database.database",
         "documentation": {}
     },
     {
@@ -93,6 +239,175 @@
         "description": "app.database.database",
         "isExtraImport": true,
         "detail": "app.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "import_fos",
+        "importPath": "app.database.import_data.import_fos",
+        "description": "app.database.import_data.import_fos",
+        "isExtraImport": true,
+        "detail": "app.database.import_data.import_fos",
+        "documentation": {}
+    },
+    {
+        "label": "import_all_programs",
+        "importPath": "app.database.import_data.import_programs",
+        "description": "app.database.import_data.import_programs",
+        "isExtraImport": true,
+        "detail": "app.database.import_data.import_programs",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Float",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Table",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Date",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Table",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
         "documentation": {}
     },
     {
@@ -217,31 +532,6 @@
         "documentation": {}
     },
     {
-        "label": "app.database.models",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "app.database.models",
-        "description": "app.database.models",
-        "detail": "app.database.models",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "app.database.models",
-        "description": "app.database.models",
-        "isExtraImport": true,
-        "detail": "app.database.models",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "app.database.models",
-        "description": "app.database.models",
-        "isExtraImport": true,
-        "detail": "app.database.models",
-        "documentation": {}
-    },
-    {
         "label": "SECRET_KEY",
         "importPath": "app.config",
         "description": "app.config",
@@ -346,15 +636,6 @@
         "documentation": {}
     },
     {
-        "label": "os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
-        "documentation": {}
-    },
-    {
         "label": "load_dotenv",
         "importPath": "dotenv",
         "description": "dotenv",
@@ -395,6 +676,14 @@
         "documentation": {}
     },
     {
+        "label": "start_import",
+        "importPath": "app.database.import_data.start_import",
+        "description": "app.database.import_data.start_import",
+        "isExtraImport": true,
+        "detail": "app.database.import_data.start_import",
+        "documentation": {}
+    },
+    {
         "label": "BaseModel",
         "importPath": "pydantic",
         "description": "pydantic",
@@ -424,6 +713,51 @@
         "description": "passlib.context",
         "isExtraImport": true,
         "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "import_fos",
+        "kind": 2,
+        "importPath": "app.database.import_data.import_fos",
+        "description": "app.database.import_data.import_fos",
+        "peekOfCode": "def import_fos():\n    \"\"\"Импортирует данные в БД, если таблицы пустые.\"\"\"\n    db = SessionLocal()\n    # Проверяем, есть ли уже данные\n    if db.query(FieldOfStudy).first() is None:\n        print(\"⏳ Импортируем данные в базу...\")\n        with open(\"app/database/static_files/fields_of_study.json\", \"r\", encoding=\"utf-8\") as f:\n            data = json.load(f)\n        subjects_cache = {}\n        try:",
+        "detail": "app.database.import_data.import_fos",
+        "documentation": {}
+    },
+    {
+        "label": "process_json_file",
+        "kind": 2,
+        "importPath": "app.database.import_data.import_programs",
+        "description": "app.database.import_data.import_programs",
+        "peekOfCode": "def process_json_file(filepath, db):\n    \"\"\" Обрабатывает один JSON-файл и загружает его в базу \"\"\"\n    with open(filepath, \"r\", encoding=\"utf-8\") as f:\n        data = json.load(f)\n    # Извлекаем данные из JSON\n    course_details = data.get(\"course_details\", {})\n    requirements_data = data.get(\"requirements\", {})\n    fields_of_study_data = data.get(\"field_of_study\", [])\n    subjects_data = data.get(\"subject\", [])\n    application_link = data.get(\"application_link\", None)",
+        "detail": "app.database.import_data.import_programs",
+        "documentation": {}
+    },
+    {
+        "label": "import_all_programs",
+        "kind": 2,
+        "importPath": "app.database.import_data.import_programs",
+        "description": "app.database.import_data.import_programs",
+        "peekOfCode": "def import_all_programs():\n    \"\"\" Обрабатывает все JSON-файлы в папке DATA_DIR \"\"\"\n    db = SessionLocal()\n    try:\n        files_processed = 0\n        for filename in os.listdir(DATA_DIR):\n            if filename.endswith(\".json\"):\n                filepath = os.path.join(DATA_DIR, filename)\n                process_json_file(filepath, db)\n                files_processed += 1",
+        "detail": "app.database.import_data.import_programs",
+        "documentation": {}
+    },
+    {
+        "label": "DATA_DIR",
+        "kind": 5,
+        "importPath": "app.database.import_data.import_programs",
+        "description": "app.database.import_data.import_programs",
+        "peekOfCode": "DATA_DIR = \"app/database/static_files/json_data\"\ndef process_json_file(filepath, db):\n    \"\"\" Обрабатывает один JSON-файл и загружает его в базу \"\"\"\n    with open(filepath, \"r\", encoding=\"utf-8\") as f:\n        data = json.load(f)\n    # Извлекаем данные из JSON\n    course_details = data.get(\"course_details\", {})\n    requirements_data = data.get(\"requirements\", {})\n    fields_of_study_data = data.get(\"field_of_study\", [])\n    subjects_data = data.get(\"subject\", [])",
+        "detail": "app.database.import_data.import_programs",
+        "documentation": {}
+    },
+    {
+        "label": "start_import",
+        "kind": 2,
+        "importPath": "app.database.import_data.start_import",
+        "description": "app.database.import_data.start_import",
+        "peekOfCode": "def start_import():\n    import_fos()\n    import_all_programs()",
+        "detail": "app.database.import_data.start_import",
         "documentation": {}
     },
     {
@@ -476,7 +810,88 @@
         "kind": 6,
         "importPath": "app.database.models",
         "description": "app.database.models",
-        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id = Column(Integer, primary_key=True, index=True)\n    username = Column(String, unique=True, index=True)\n    hashed_password = Column(String)\n    refresh_token = Column(String, nullable=True)  # Добавляем поле",
+        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id = Column(Integer, primary_key=True, index=True)\n    username = Column(String, unique=True, index=True)\n    hashed_password = Column(String)\n    refresh_token = Column(String, nullable=True)  # Добавляем поле\nfrom sqlalchemy import Column, Integer, String, ForeignKey, Table\nfrom sqlalchemy.orm import relationship\nfrom app.database.database import Base\n# Ассоциационные таблицы (Many-to-Many)",
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "University",
+        "kind": 6,
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "peekOfCode": "class University(Base):\n    __tablename__ = \"universities\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, nullable=True)\n    location = Column(String, nullable=True)\n    programs = relationship(\"Program\", back_populates=\"university\")\nclass Program(Base):\n    __tablename__ = \"programs\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, nullable=True)",
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "Program",
+        "kind": 6,
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "peekOfCode": "class Program(Base):\n    __tablename__ = \"programs\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, nullable=True)\n    university_id = Column(Integer, ForeignKey(\"universities.id\"), nullable=True)\n    location = Column(String, nullable=True)\n    duration = Column(String, nullable=True)\n    tuition_fees = Column(String, nullable=True)\n    language = Column(String, nullable=True)\n    mode_of_study = Column(String, nullable=True)",
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "Requirement",
+        "kind": 6,
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "peekOfCode": "class Requirement(Base):\n    __tablename__ = \"requirements\"\n    id = Column(Integer, primary_key=True, index=True)\n    type = Column(String, nullable=True)\n    detail = Column(String, nullable=True)\n    programs = relationship(\"Program\", secondary=program_requirements, back_populates=\"requirements\")\nclass FieldOfStudy(Base):\n    __tablename__ = \"fields_of_study\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, nullable=True)",
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "FieldOfStudy",
+        "kind": 6,
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "peekOfCode": "class FieldOfStudy(Base):\n    __tablename__ = \"fields_of_study\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, nullable=True)\n    programs = relationship(\"Program\", secondary=program_fields, back_populates=\"fields_of_study\")\n    subjects = relationship(\"Subject\", secondary=fields_subjects, back_populates=\"fields_of_study\")\nclass Subject(Base):\n    __tablename__ = \"subjects\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, nullable=True)",
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "Subject",
+        "kind": 6,
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "peekOfCode": "class Subject(Base):\n    __tablename__ = \"subjects\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, nullable=True)\n    programs = relationship(\"Program\", secondary=program_subjects, back_populates=\"subjects\")\n    fields_of_study = relationship(\"FieldOfStudy\", secondary=fields_subjects, back_populates=\"subjects\")",
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "program_requirements",
+        "kind": 5,
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "peekOfCode": "program_requirements = Table(\n    \"program_requirements\", Base.metadata,\n    Column(\"program_id\", Integer, ForeignKey(\"programs.id\"), primary_key=True),\n    Column(\"requirement_id\", Integer, ForeignKey(\"requirements.id\"), primary_key=True),\n    Column(\"min_score\", String, nullable=True),  # Из Float в String\n    Column(\"is_mandatory\", String, nullable=True)  # Из Boolean в String\n)\nprogram_fields = Table(\n    \"program_fields\", Base.metadata,\n    Column(\"program_id\", Integer, ForeignKey(\"programs.id\"), primary_key=True),",
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "program_fields",
+        "kind": 5,
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "peekOfCode": "program_fields = Table(\n    \"program_fields\", Base.metadata,\n    Column(\"program_id\", Integer, ForeignKey(\"programs.id\"), primary_key=True),\n    Column(\"field_id\", Integer, ForeignKey(\"fields_of_study.id\"), primary_key=True)\n)\nprogram_subjects = Table(\n    \"program_subjects\", Base.metadata,\n    Column(\"program_id\", Integer, ForeignKey(\"programs.id\"), primary_key=True),\n    Column(\"subject_id\", Integer, ForeignKey(\"subjects.id\"), primary_key=True)\n)",
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "program_subjects",
+        "kind": 5,
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "peekOfCode": "program_subjects = Table(\n    \"program_subjects\", Base.metadata,\n    Column(\"program_id\", Integer, ForeignKey(\"programs.id\"), primary_key=True),\n    Column(\"subject_id\", Integer, ForeignKey(\"subjects.id\"), primary_key=True)\n)\nfields_subjects = Table(\n    \"fields_subjects\", Base.metadata,\n    Column(\"field_id\", Integer, ForeignKey(\"fields_of_study.id\"), primary_key=True),\n    Column(\"subject_id\", Integer, ForeignKey(\"subjects.id\"), primary_key=True)\n)",
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "fields_subjects",
+        "kind": 5,
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "peekOfCode": "fields_subjects = Table(\n    \"fields_subjects\", Base.metadata,\n    Column(\"field_id\", Integer, ForeignKey(\"fields_of_study.id\"), primary_key=True),\n    Column(\"subject_id\", Integer, ForeignKey(\"subjects.id\"), primary_key=True)\n)\n# Таблицы\nclass University(Base):\n    __tablename__ = \"universities\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, nullable=True)",
         "detail": "app.database.models",
         "documentation": {}
     },

@@ -1,0 +1,64 @@
+{
+    "course_details": {
+        "course_title": "Artificial Intelligence & Robotics (MSc)",
+        "university": "University of Technology Nuremberg",
+        "location": "Nürnberg",
+        "duration": "4 semesters",
+        "tuition_fees": "None",
+        "language_of_instruction": "English",
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": "C1",
+                "Toefl": null,
+                "IELTS": null,
+                "CPE": null
+            },
+            "German": "Language certificate German A2 or German-language university entrance qualification: The proof can also be submitted later, up to the registration of the final paper (beginning of the fourth semester). If a language test is already submitted for the application or enrolment, it must not be older than two years.",
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": null,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": "required"
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": null
+        },
+        "application_deadline": []
+    },
+    "field_of_study": [
+        "Mathematics, Natural Sciences",
+        "Engineering"
+    ],
+    "subject": [
+        "Engineering in general",
+        "Computer Science"
+    ],
+    "application_link": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/9706/"
+}

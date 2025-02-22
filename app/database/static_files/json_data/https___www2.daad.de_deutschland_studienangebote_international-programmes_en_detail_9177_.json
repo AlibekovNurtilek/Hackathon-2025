@@ -1,0 +1,68 @@
+{
+    "course_details": {
+        "course_title": "AgriFood Economics, Policy and Regulation",
+        "university": "Technical University of Munich",
+        "location": "Freising",
+        "duration": "4 semesters",
+        "tuition_fees": "Varied",
+        "language_of_instruction": null,
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": null,
+                "Toefl": null,
+                "IELTS": null,
+                "CPE": null
+            },
+            "German": null,
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": null,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": null
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": null
+        },
+        "application_deadline": [
+            "2025-05-31",
+            "2025-03-31"
+        ]
+    },
+    "field_of_study": [
+        "Agriculture, Forestry and Nutritional Sciences",
+        "Law, Economics and Social Sciences"
+    ],
+    "subject": [
+        "Law, Economics and Social Sciences in general",
+        "Political Science",
+        "Agriculture, Forestry and Nutritional Sciences in general"
+    ],
+    "application_link": "https://campus.tum.de/tumonline/webnav.ini"
+}

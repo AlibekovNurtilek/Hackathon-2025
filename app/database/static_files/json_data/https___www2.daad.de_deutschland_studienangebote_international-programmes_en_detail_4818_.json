@@ -1,0 +1,67 @@
+{
+    "course_details": {
+        "course_title": "Automation & Control (A&C)",
+        "university": "RPTU University of Kaiserslautern-Landau",
+        "location": "Kaiserslautern",
+        "duration": "4 semesters",
+        "tuition_fees": "None",
+        "language_of_instruction": "English",
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": null,
+                "Toefl": null,
+                "IELTS": null,
+                "CPE": null
+            },
+            "German": null,
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": 1.7,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": null
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": "recommended"
+        },
+        "application_deadline": [
+            "2025-10-31",
+            "2024-04-30"
+        ]
+    },
+    "field_of_study": [
+        "Engineering"
+    ],
+    "subject": [
+        "Mechanical Engineering / Process Engineering",
+        "Electrical Engineering"
+    ],
+    "gpa": 1.7,
+    "application_link": "https://eit.rptu.de/en/studies/master-in-english"
+}

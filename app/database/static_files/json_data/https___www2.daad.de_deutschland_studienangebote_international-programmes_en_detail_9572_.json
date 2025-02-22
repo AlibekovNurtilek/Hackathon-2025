@@ -1,0 +1,68 @@
+{
+    "course_details": {
+        "course_title": "International Entrepreneurship, Digitalisation and Sustainability (MSc)",
+        "university": "Neu-Ulm University of Applied Sciences",
+        "location": "Neu-Ulm",
+        "duration": "3 semesters",
+        "tuition_fees": "None",
+        "language_of_instruction": null,
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": "B2",
+                "Toefl": null,
+                "IELTS": null,
+                "CPE": null
+            },
+            "German": "A1",
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": 2.5,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": null
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": null
+        },
+        "application_deadline": [
+            "2024-08-31",
+            "2025-02-15",
+            "2024-07-15",
+            "2025-01-15"
+        ]
+    },
+    "field_of_study": [
+        "Law, Economics and Social Sciences"
+    ],
+    "subject": [
+        "Business and Economics"
+    ],
+    "gpa": 2.5,
+    "application_link": "https://campus.hnu.de/qisserver/pages/cs/sys/portal/hisinoneStartPage.faces?navigationPosition=link_homepag e&recordRequest=true"
+}

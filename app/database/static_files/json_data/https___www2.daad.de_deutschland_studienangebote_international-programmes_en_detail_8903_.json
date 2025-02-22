@@ -1,0 +1,66 @@
+{
+    "course_details": {
+        "course_title": "Advanced Green Engineering and Sustainable Management",
+        "university": "Westsächsische Hochschule Zwickau - University of Applied Sciences Zwickau",
+        "location": "Zwickau",
+        "duration": "3 semesters",
+        "tuition_fees": "None",
+        "language_of_instruction": null,
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": "B2",
+                "Toefl": null,
+                "IELTS": null,
+                "CPE": null
+            },
+            "German": null,
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": null,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": "required"
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": null
+        },
+        "application_deadline": []
+    },
+    "field_of_study": [
+        "Engineering",
+        "Law, Economics and Social Sciences"
+    ],
+    "subject": [
+        "Mechanical Engineering / Process Engineering",
+        "Business and Economics",
+        "Engineering in general",
+        "Industrial Engineering"
+    ],
+    "application_link": "https://www.fh-zwickau.de/english/study/incomings/application/international-full-time-study/"
+}

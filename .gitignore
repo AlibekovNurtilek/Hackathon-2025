@@ -177,3 +177,5 @@ __pycache__/
 .env
 venv/
 fastapi_env/
+
+.vscode

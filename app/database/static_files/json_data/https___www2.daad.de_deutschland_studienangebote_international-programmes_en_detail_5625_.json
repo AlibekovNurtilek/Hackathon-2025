@@ -1,0 +1,67 @@
+{
+    "course_details": {
+        "course_title": "Master of Science in Computer Engineering",
+        "university": "Paderborn University",
+        "location": "Paderborn",
+        "duration": "4 semesters",
+        "tuition_fees": "None",
+        "language_of_instruction": null,
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": null,
+                "Toefl": "80",
+                "IELTS": null,
+                "CPE": "of Advanced English"
+            },
+            "German": null,
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": null,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": "required"
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": "at least 157 points in \"Qualitative Reasoning\" and at least 4.0 in \"Analytical Writing\""
+        },
+        "application_deadline": [
+            "2024-05-31",
+            "2024-11-30"
+        ]
+    },
+    "field_of_study": [
+        "Mathematics, Natural Sciences",
+        "Engineering"
+    ],
+    "subject": [
+        "Computer Science",
+        "Electrical Engineering"
+    ],
+    "application_link": "https://www.uni-assist.de/en/"
+}

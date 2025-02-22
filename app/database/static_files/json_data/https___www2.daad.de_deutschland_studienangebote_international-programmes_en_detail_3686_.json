@@ -1,0 +1,80 @@
+{
+    "course_details": {
+        "course_title": "Global Software Development (MSc)",
+        "university": "Fulda University of Applied Sciences",
+        "location": "Fulda",
+        "duration": "3 semesters, 4 semesters",
+        "tuition_fees": "None",
+        "language_of_instruction": null,
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": null,
+                "Toefl": null,
+                "IELTS": null,
+                "CPE": null
+            },
+            "German": null,
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": 2.5,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": "required"
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": null
+        },
+        "application_deadline": [
+            "2024-04-15",
+            "2024-09-30",
+            "2024-04-15",
+            "2024-09-30",
+            "2024-03-01",
+            "2024-09-30",
+            "2024-03-01",
+            "2024-05-31",
+            "2024-10-15",
+            "2025-03-31",
+            "2024-10-15",
+            "2025-03-31",
+            "2024-10-01",
+            "2025-03-31",
+            "2024-10-01",
+            "2024-11-01"
+        ]
+    },
+    "field_of_study": [
+        "Mathematics, Natural Sciences"
+    ],
+    "subject": [
+        "Computer Science"
+    ],
+    "gpa": 2.5,
+    "application_link": "https://www.hs-fulda.de/en/study/information-for-your-application"
+}

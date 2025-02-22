@@ -1,0 +1,66 @@
+{
+    "course_details": {
+        "course_title": "Molecular Medicine (Master of Science)",
+        "university": "University of Tübingen",
+        "location": "Tübingen",
+        "duration": "2 semesters",
+        "tuition_fees": "1,500 EUR",
+        "language_of_instruction": null,
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": "C1",
+                "Toefl": null,
+                "IELTS": "3",
+                "CPE": "of Advanced English Test 4"
+            },
+            "German": null,
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": 3.0,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": null
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": null
+        },
+        "application_deadline": [
+            "2024-04-15"
+        ]
+    },
+    "field_of_study": [
+        "Mathematics, Natural Sciences"
+    ],
+    "subject": [
+        "Mathematics, Natural Sciences in general",
+        "Biology"
+    ],
+    "gpa": 3.0,
+    "application_link": "https://uni-tuebingen.de/en/facilities/administration/iv-student-affairs/advising-and-admission-of-international-students/"
+}

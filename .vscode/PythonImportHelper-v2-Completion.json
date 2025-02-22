@@ -925,7 +925,7 @@
         "kind": 2,
         "importPath": "app.routes.users",
         "description": "app.routes.users",
-        "peekOfCode": "def login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):\n    user = authenticate_user(db, form_data.username, form_data.password)\n    if not user:\n        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail=\"Invalid credentials\")\n    access_token, refresh_token = generate_tokens(user, db)\n    return {\n        \"access_token\": access_token,\n        \"refresh_token\": refresh_token,\n        \"token_type\": \"bearer\"\n    }",
+        "peekOfCode": "def login(user_data: UserCreate, db: Session = Depends(get_db)):\n    user = authenticate_user(db, user_data.username, user_data.password)\n    if not user:\n        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail=\"Invalid credentials\")\n    access_token, refresh_token = generate_tokens(user, db)\n    return {\n        \"access_token\": access_token,\n        \"refresh_token\": refresh_token,\n        \"token_type\": \"bearer\"\n    }",
         "detail": "app.routes.users",
         "documentation": {}
     },

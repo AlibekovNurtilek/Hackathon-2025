@@ -28,11 +28,9 @@ def register(user_data: UserCreate, db: Session = Depends(get_db)):
     }
 
 
-
-# Эндпоинт для логина и получения JWT
 @router.post("/token", response_model=Token)
-def login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):
-    user = authenticate_user(db, form_data.username, form_data.password)
+def login(user_data: UserCreate, db: Session = Depends(get_db)):
+    user = authenticate_user(db, user_data.username, user_data.password)
     if not user:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid credentials")
 

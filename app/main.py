@@ -18,7 +18,7 @@ app.add_middleware(
 # Создаём таблицы, если их нет
 Base.metadata.create_all(bind=engine)
 
-start_import()
+#start_import()
 
 # Подключаем маршруты
 app.include_router(users.router)

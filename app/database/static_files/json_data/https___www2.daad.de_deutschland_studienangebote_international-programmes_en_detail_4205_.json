@@ -1,0 +1,65 @@
+{
+    "course_details": {
+        "course_title": "MSc Psychology: Learning Sciences and Human Development",
+        "university": "Ludwig-Maximilians-Universität München",
+        "location": "München",
+        "duration": "4 semesters",
+        "tuition_fees": "None",
+        "language_of_instruction": null,
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": "B2",
+                "Toefl": null,
+                "IELTS": null,
+                "CPE": null
+            },
+            "German": null,
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": null,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": null
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": null
+        },
+        "application_deadline": [
+            "2025-03-01",
+            "2025-05-31"
+        ]
+    },
+    "field_of_study": [
+        "Languages and Cultural Studies"
+    ],
+    "subject": [
+        "Psychology"
+    ],
+    "application_link": "https://www.lmu.de/de/studium/studienangebot/alle-studienfaecher-und-studiengaenge/psychology-learning-sciences-master-hauptfach-4549.html"
+}

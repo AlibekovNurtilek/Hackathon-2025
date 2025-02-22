@@ -1,0 +1,69 @@
+{
+    "course_details": {
+        "course_title": "Master of Science in Photonics",
+        "university": "Hochschule München University of Applied Sciences",
+        "location": "München",
+        "duration": "3 semesters, 6 semesters",
+        "tuition_fees": "None",
+        "language_of_instruction": null,
+        "mode_of_study": "Full-time or Part-time"
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": "B2",
+                "Toefl": null,
+                "IELTS": null,
+                "CPE": null
+            },
+            "German": "A2 level recommended",
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": "final grade better than the equivalent German grade of \"good\"",
+        "is_german": null,
+        "application_process": {
+            "uni_assist": null
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": null
+        },
+        "application_deadline": [
+            "2024-06-15",
+            "2025-01-15"
+        ]
+    },
+    "field_of_study": [
+        "Mathematics, Natural Sciences",
+        "Engineering"
+    ],
+    "subject": [
+        "Physics, Astronomy",
+        "Engineering in general",
+        "Mathematics, Natural Sciences in general",
+        "Electrical Engineering"
+    ],
+    "application_link": "https://hm.edu/studium_1/bewerbung/master_bewerbung/index.de.html"
+}

@@ -1,0 +1,63 @@
+{
+    "course_details": {
+        "course_title": "Master of Peace and Conflict Studies (MA) (International Joint Degree)",
+        "university": "Philipps-Universität Marburg",
+        "location": "Marburg",
+        "duration": "4 semesters",
+        "tuition_fees": "Yes",
+        "language_of_instruction": null,
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": null,
+                "Toefl": null,
+                "IELTS": "6.5",
+                "CPE": null
+            },
+            "German": null,
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": null,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": null
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": null
+        },
+        "application_deadline": []
+    },
+    "field_of_study": [
+        "Law, Economics and Social Sciences"
+    ],
+    "subject": [
+        "Political Science",
+        "Social Science"
+    ],
+    "application_link": "https://www.kent.ac.uk/courses/postgraduate/49/peace-and-conflict-studies"
+}

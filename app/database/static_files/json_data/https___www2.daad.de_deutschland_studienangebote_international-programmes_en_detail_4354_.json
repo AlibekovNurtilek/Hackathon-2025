@@ -1,0 +1,70 @@
+{
+    "course_details": {
+        "course_title": "Communication Systems and Networks (Master of Science)",
+        "university": "Technische Hochschule Köln (University of Applied Sciences) •",
+        "location": "Köln",
+        "duration": "3 semesters",
+        "tuition_fees": "None",
+        "language_of_instruction": null,
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": "B2",
+                "Toefl": null,
+                "IELTS": null,
+                "CPE": null
+            },
+            "German": "DSH 2 or Higher Education Entrance Qualification at an institution where the language of instruction was German",
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": 2.3,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": "required"
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": null
+        },
+        "application_deadline": [
+            "2024-03-31",
+            "2024-10-31"
+        ]
+    },
+    "field_of_study": [
+        "Mathematics, Natural Sciences",
+        "Engineering"
+    ],
+    "subject": [
+        "Computer Science",
+        "Engineering in general",
+        "Mathematics, Natural Sciences in general",
+        "Electrical Engineering"
+    ],
+    "gpa": 2.3,
+    "application_link": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4354/"
+}

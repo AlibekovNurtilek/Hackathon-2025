@@ -1,0 +1,71 @@
+{
+    "course_details": {
+        "course_title": "Natural Resources Management and Development (Master of Science)",
+        "university": "Technische Hochschule Köln (University of Applied Sciences)",
+        "location": "Köln",
+        "duration": "4 semesters",
+        "tuition_fees": "None",
+        "language_of_instruction": null,
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": null,
+                "Toefl": "79",
+                "IELTS": null,
+                "CPE": null
+            },
+            "German": null,
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": "3.0",
+        "is_german": null,
+        "application_process": {
+            "uni_assist": "required"
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": null
+        },
+        "application_deadline": [
+            "2024-03-31",
+            "2024-06-10",
+            "2025-09-30"
+        ]
+    },
+    "field_of_study": [
+        "Engineering",
+        "Mathematics, Natural Sciences",
+        "Agriculture, Forestry and Nutritional Sciences"
+    ],
+    "subject": [
+        "Engineering in general",
+        "Geography",
+        "Land Management, Environmental Architecture"
+    ],
+    "gpa": "3.0",
+    "application_link": "www.th-koeln.de/howtoapply"
+}

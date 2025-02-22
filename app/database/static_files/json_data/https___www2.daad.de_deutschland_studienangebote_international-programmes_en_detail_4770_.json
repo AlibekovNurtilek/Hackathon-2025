@@ -1,0 +1,65 @@
+{
+    "course_details": {
+        "course_title": "Advanced and Computational Mathematics – International Master's Programme",
+        "university": "Chemnitz University of Technology",
+        "location": "Chemnitz",
+        "duration": "4 semesters",
+        "tuition_fees": "None",
+        "language_of_instruction": null,
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": "B2",
+                "Toefl": null,
+                "IELTS": null,
+                "CPE": null
+            },
+            "German": "Although not compulsory, basic knowledge of German is recommended at the beginning of the programme. Courses to obtain the required level of German language (A2) are included within the curriculum for non-native speakers. Students providing a certificate of A2 level (CEFR) may choose advanced language courses or subject studies.",
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": null,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": "required"
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": null
+        },
+        "application_deadline": [
+            "2024-07-15",
+            "2024-01-15"
+        ]
+    },
+    "field_of_study": [
+        "Mathematics, Natural Sciences"
+    ],
+    "subject": [
+        "Mathematics"
+    ],
+    "application_link": "https://www.uni-assist.de/en"
+}

@@ -1,0 +1,67 @@
+{
+    "course_details": {
+        "course_title": "Applied Research in Computer Science (MSc)",
+        "university": "Hof University of Applied Sciences",
+        "location": "Hof",
+        "duration": "3 semesters",
+        "tuition_fees": "None",
+        "language_of_instruction": null,
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": null,
+                "Toefl": null,
+                "IELTS": "6.5",
+                "CPE": null
+            },
+            "German": "Basic language skills in German, proven by official test score documents – minimum level A1 according to CEFR",
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": null,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": null
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": null
+        },
+        "application_deadline": [
+            "2024-11-30",
+            "2024-05-31"
+        ]
+    },
+    "field_of_study": [
+        "Mathematics, Natural Sciences",
+        "Engineering"
+    ],
+    "subject": [
+        "Engineering in general",
+        "Computer Science"
+    ],
+    "application_link": "https://www3.primuss.de/cgi-bin/bew_anmeldung_v2/index.pl?Session=&FH=fhh&Email=&Portal=1&Language=en"
+}

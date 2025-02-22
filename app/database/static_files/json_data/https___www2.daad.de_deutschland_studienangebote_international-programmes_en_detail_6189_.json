@@ -1,0 +1,67 @@
+{
+    "course_details": {
+        "course_title": "History and Culture of the Baltic Sea Region",
+        "university": "University of Greifswald",
+        "location": "Greifswald",
+        "duration": "4 semesters",
+        "tuition_fees": "None",
+        "language_of_instruction": null,
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": "B2",
+                "Toefl": null,
+                "IELTS": "6.0",
+                "CPE": null
+            },
+            "German": "Basic knowledge of German (A1) is desirable",
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": null,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": "required"
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": null
+        },
+        "application_deadline": [
+            "2025-01-15",
+            "2024-07-15"
+        ]
+    },
+    "field_of_study": [
+        "Languages and Cultural Studies"
+    ],
+    "subject": [
+        "Languages and Cultural Studies in general",
+        "History",
+        "Slavonic, Baltic, Finno-Ugrian Studies"
+    ],
+    "application_link": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6189/"
+}

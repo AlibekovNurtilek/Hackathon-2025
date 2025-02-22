@@ -1,0 +1,68 @@
+{
+    "course_details": {
+        "course_title": "Operation and Management of Maritime Systems (OMMS)",
+        "university": "Hochschule Wismar - University of Applied Sciences, Technology, Business and Design",
+        "location": "Wismar",
+        "duration": "3 semesters",
+        "tuition_fees": "None",
+        "language_of_instruction": null,
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": null,
+                "Toefl": "80",
+                "IELTS": "6.0",
+                "CPE": null
+            },
+            "German": "(German language only for the elective module in Maritime Law)",
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": 2.5,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": null
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": null
+        },
+        "application_deadline": [
+            "2024-07-15"
+        ]
+    },
+    "field_of_study": [
+        "Engineering"
+    ],
+    "subject": [
+        "Mechanical Engineering / Process Engineering",
+        "Engineering in general",
+        "Surveying",
+        "Transport Engineering, Nautical Science"
+    ],
+    "gpa": 2.5,
+    "application_link": "https://hio.hs-wismar.de/qisserver/pages/cs/sys/portal/hisinoneStartPage.faces?page=1"
+}

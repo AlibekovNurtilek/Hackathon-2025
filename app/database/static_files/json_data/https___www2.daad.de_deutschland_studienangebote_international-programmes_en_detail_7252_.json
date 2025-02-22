@@ -1,0 +1,65 @@
+{
+    "course_details": {
+        "course_title": "Smart Energy Systems",
+        "university": "Ansbach University of Applied Sciences",
+        "location": "Feuchtwangen",
+        "duration": "3 semesters",
+        "tuition_fees": "None",
+        "language_of_instruction": "English",
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": "B2",
+                "Toefl": null,
+                "IELTS": "6.5",
+                "CPE": null
+            },
+            "German": "Deutsches Sprachdiplom DSD, Stufe 1 (Stufe GER A2/B1); Goethe-Institut, Zertifikat der Niveaustufe A2; Test DaF, Niveaustufe TDN 3/ 4; DSH Zertifikat, DSH-1",
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": 2.3,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": null
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": null
+        },
+        "application_deadline": [
+            "2024-05-31"
+        ]
+    },
+    "field_of_study": [
+        "Engineering"
+    ],
+    "subject": [
+        "Engineering in general"
+    ],
+    "gpa": 2.3,
+    "application_link": "https://www3.primuss.de/cgi-bin/bew_anmeldung/index.pl?FH=fhan"
+}

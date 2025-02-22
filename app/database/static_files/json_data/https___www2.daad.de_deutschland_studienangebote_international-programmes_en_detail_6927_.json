@@ -1,0 +1,70 @@
+{
+    "course_details": {
+        "course_title": "Food Quality and Safety",
+        "university": "University of Bayreuth",
+        "location": "Kulmbach",
+        "duration": "4 semesters",
+        "tuition_fees": "None",
+        "language_of_instruction": null,
+        "mode_of_study": "full-time"
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": "C1",
+                "Toefl": "95",
+                "IELTS": "7.0",
+                "CPE": null
+            },
+            "German": "Test results proving CEFR Level A1 (can be obtained during the first year of the programme)",
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": 2.5,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": "required"
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": null
+        },
+        "application_deadline": [
+            "2024-03-01",
+            "2024-06-15"
+        ]
+    },
+    "field_of_study": [
+        "Mathematics, Natural Sciences",
+        "Agriculture, Forestry and Nutritional Sciences",
+        "Law, Economics and Social Sciences"
+    ],
+    "subject": [
+        "Law, Economics and Social Sciences in general",
+        "Mathematics, Natural Sciences in general",
+        "Agriculture, Forestry and Nutritional Sciences in general",
+        "Biology"
+    ],
+    "gpa": 2.5
+}

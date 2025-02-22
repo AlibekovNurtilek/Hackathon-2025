@@ -1,0 +1,69 @@
+{
+    "course_details": {
+        "course_title": "Religion and Global Futures",
+        "university": "University of Bayreuth",
+        "location": "Bayreuth",
+        "duration": "4 semesters",
+        "tuition_fees": "None",
+        "language_of_instruction": null,
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": "B2",
+                "Toefl": null,
+                "IELTS": null,
+                "CPE": null
+            },
+            "German": "A1",
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": 2.5,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": "required"
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": null
+        },
+        "application_deadline": [
+            "2024-10-15",
+            "2024-07-15"
+        ]
+    },
+    "field_of_study": [
+        "Languages and Cultural Studies",
+        "Law, Economics and Social Sciences"
+    ],
+    "subject": [
+        "Languages and Cultural Studies in general",
+        "Other / Non-European Languages and Cultural Studies",
+        "Social Science"
+    ],
+    "gpa": 2.5,
+    "application_link": "campusonline.uni-bayreuth.de"
+}

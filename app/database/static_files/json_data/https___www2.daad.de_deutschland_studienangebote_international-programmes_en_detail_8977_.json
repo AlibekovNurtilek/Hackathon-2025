@@ -1,0 +1,67 @@
+{
+    "course_details": {
+        "course_title": "Artificial Intelligence for Industrial Applications, (MSc) full-time",
+        "university": "Ostbayerische Technische Hochschule Amberg-Weiden (OTH)",
+        "location": "Amberg",
+        "duration": "3 semesters",
+        "tuition_fees": "None",
+        "language_of_instruction": "English",
+        "mode_of_study": "full-time"
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": null,
+                "Toefl": null,
+                "IELTS": null,
+                "CPE": null
+            },
+            "German": null,
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": null,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": "required"
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": null
+        },
+        "application_deadline": [
+            "2024-06-08",
+            "2024-04-15",
+            "2024-12-08",
+            "2024-11-01"
+        ]
+    },
+    "field_of_study": [
+        "Mathematics, Natural Sciences"
+    ],
+    "subject": [
+        "Computer Science"
+    ],
+    "application_link": "application portal"
+}

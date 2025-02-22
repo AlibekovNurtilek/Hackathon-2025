@@ -1,0 +1,69 @@
+{
+    "course_details": {
+        "course_title": "Neural & Behavioural Sciences",
+        "university": "University of Tübingen",
+        "location": "Tübingen",
+        "duration": "4 semesters",
+        "tuition_fees": "Varied",
+        "language_of_instruction": null,
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": "B2",
+                "Toefl": null,
+                "IELTS": null,
+                "CPE": null
+            },
+            "German": null,
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": null,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": null
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": null
+        },
+        "application_deadline": [
+            "2024-03-31"
+        ]
+    },
+    "field_of_study": [
+        "Medicine",
+        "Mathematics, Natural Sciences",
+        "Languages and Cultural Studies"
+    ],
+    "subject": [
+        "Clinical, Theoretical Medicine (including Dentistry)",
+        "Mathematics, Natural Sciences in general",
+        "Psychology",
+        "Biology"
+    ],
+    "application_link": "Online application link of the University of Tübingen"
+}

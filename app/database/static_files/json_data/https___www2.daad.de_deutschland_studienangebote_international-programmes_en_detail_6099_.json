@@ -1,0 +1,63 @@
+{
+    "course_details": {
+        "course_title": "International Master's / PhD Programme in Clinical Exercise Science (CES)",
+        "university": "University of Potsdam",
+        "location": "Potsdam",
+        "duration": "4 semesters, 8 semesters",
+        "tuition_fees": "None",
+        "language_of_instruction": null,
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": "C1",
+                "Toefl": null,
+                "IELTS": null,
+                "CPE": "of Advanced English"
+            },
+            "German": "No knowledge of German is required.",
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": null,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": null
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": null
+        },
+        "application_deadline": [
+            "2024-08-15"
+        ]
+    },
+    "field_of_study": [
+        "Sport"
+    ],
+    "subject": [
+        "Sport"
+    ]
+}

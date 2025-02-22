@@ -1,0 +1,123 @@
+{
+    "fields_of_study": [
+      {
+        "name": "Agriculture, Forestry and Nutritional Sciences",
+        "subjects": [
+          {"id": 1, "name": "Agriculture, Forestry and Nutritional Sciences in general"},
+          {"id": 2, "name": "Agriculture, Food and Beverage Technology"},
+          {"id": 3, "name": "Forestry, Wood Economics"},
+          {"id": 4, "name": "Land Management, Environmental Architecture"},
+          {"id": 5, "name": "Nutritional and Domestic Science"}
+        ]
+      },
+      {
+        "name": "Art, Art Theory",
+        "subjects": [
+          {"id": 6, "name": "Art, Art Theory in general"},
+          {"id": 7, "name": "Design"},
+          {"id": 8, "name": "Fine Arts"},
+          {"id": 9, "name": "Music, Musicology"},
+          {"id": 10, "name": "Performing Arts, Film and Television, Drama"}
+        ]
+      },
+      {
+        "name": "Engineering",
+        "subjects": [
+          {"id": 11, "name": "Engineering in general"},
+          {"id": 12, "name": "Architecture"},
+          {"id": 13, "name": "Civil Engineering"},
+          {"id": 14, "name": "Electrical Engineering"},
+          {"id": 15, "name": "Mechanical Engineering / Process Engineering"},
+          {"id": 16, "name": "Mining, Metallurgy"},
+          {"id": 17, "name": "Surveying"},
+          {"id": 18, "name": "Town and Country Planning"},
+          {"id": 19, "name": "Transport Engineering, Nautical Science"},
+          {"id": 69, "name": "German as a Technical Language"},
+          {"id": 71, "name": "German as an Academic Language"}
+        ]
+      },
+      {
+        "name": "Languages and Cultural Studies",
+        "subjects": [
+          {"id": 20, "name": "Languages and Cultural Studies in general"},
+          {"id": 21, "name": "Catholic Theology"},
+          {"id": 22, "name": "Civilisation Studies in the narrower sense"},
+          {"id": 23, "name": "Classical Philology"},
+          {"id": 24, "name": "Education"},
+          {"id": 25, "name": "English Studies, American Studies"},
+          {"id": 26, "name": "General and Comparative Literature and Linguistics"},
+          {"id": 27, "name": "German Language and Literature (German, Germanic Languages except English)"},
+          {"id": 28, "name": "History"},
+          {"id": 29, "name": "Library, Documentation and Media Studies"},
+          {"id": 30, "name": "Other / Non-European Languages and Cultural Studies"},
+          {"id": 31, "name": "Philosophy"},
+          {"id": 32, "name": "Protestant Theology"},
+          {"id": 33, "name": "Psychology"},
+          {"id": 34, "name": "Romance Languages"},
+          {"id": 35, "name": "Slavonic, Baltic, Finno-Ugrian Studies"},
+          {"id": 36, "name": "Special Education"},
+          {"id": 65, "name": "German Language Course (including Literature and Culture Studies)"},
+          {"id": 66, "name": "Preparatory Course for German Language Examinations"},
+          {"id": 67, "name": "Didactics of German as a Foreign Language"},
+          {"id": 68, "name": "Translation and Interpretation"},
+          {"id": 69, "name": "German as a Technical Language"},
+          {"id": 71, "name": "German as an Academic Language"}
+        ]
+      },
+      {
+        "name": "Law, Economics and Social Sciences",
+        "subjects": [
+          {"id": 37, "name": "Law, Economics and Social Sciences in general"},
+          {"id": 38, "name": "Business and Economics"},
+          {"id": 39, "name": "Industrial Engineering"},
+          {"id": 40, "name": "Law"},
+          {"id": 41, "name": "Political Science"},
+          {"id": 42, "name": "Public Administration"},
+          {"id": 43, "name": "Regional Studies"},
+          {"id": 44, "name": "Social Science"},
+          {"id": 45, "name": "Social Services"},
+          {"id": 71, "name": "German as an Academic Language"}
+        ]
+      },
+      {
+        "name": "Mathematics, Natural Sciences",
+        "subjects": [
+          {"id": 46, "name": "Mathematics, Natural Sciences in general"},
+          {"id": 47, "name": "Biology"},
+          {"id": 48, "name": "Chemistry"},
+          {"id": 49, "name": "Computer Science"},
+          {"id": 50, "name": "Earth Sciences (excluding Geography)"},
+          {"id": 51, "name": "Geography"},
+          {"id": 52, "name": "Mathematics"},
+          {"id": 53, "name": "Pharmacy"},
+          {"id": 54, "name": "Physics, Astronomy"},
+          {"id": 69, "name": "German as a Technical Language"}
+        ]
+      },
+      {
+        "name": "Medicine",
+        "subjects": [
+          {"id": 55, "name": "Medicine in general"},
+          {"id": 56, "name": "Clinical, Practical Medicine (excluding Dentistry)"},
+          {"id": 57, "name": "Clinical, Theoretical Medicine (including Dentistry)"},
+          {"id": 58, "name": "Dentistry (Clinical, Practical)"},
+          {"id": 59, "name": "Pre-clinical Medical Studies (including Dentistry)"},
+          {"id": 71, "name": "German as an Academic Language"}
+        ]
+      },
+      {
+        "name": "Sport",
+        "subjects": [
+          {"id": 60, "name": "Sport"}
+        ]
+      },
+      {
+        "name": "Veterinary Medicine",
+        "subjects": [
+          {"id": 61, "name": "Veterinary Medicine in general"},
+          {"id": 62, "name": "Clinical Practical Veterinary Medicine"}
+        ]
+      }
+    ]
+  }
+  

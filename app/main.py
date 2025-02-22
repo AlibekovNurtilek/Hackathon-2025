@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware  # Импортируем COR
 from app.routes import users, items
 from app.database.database import engine, Base
 import app.database.models  # Импортируем, чтобы SQLAlchemy знал о таблицах
-
+from app.database.import_data.start_import import start_import
 app = FastAPI(title="Hackathon-2025 API")
 
 # Разрешаем CORS для всех источников (*), методов и заголовков
@@ -17,6 +17,8 @@ app.add_middleware(
 
 # Создаём таблицы, если их нет
 Base.metadata.create_all(bind=engine)
+
+start_import()
 
 # Подключаем маршруты
 app.include_router(users.router)

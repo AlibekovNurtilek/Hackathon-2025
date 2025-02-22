@@ -1,0 +1,67 @@
+{
+    "course_details": {
+        "course_title": "Master of Science in International Business and Economics (IBE)",
+        "university": "University of Hohenheim",
+        "location": "Stuttgart",
+        "duration": "4 semesters",
+        "tuition_fees": "1,500 EUR",
+        "language_of_instruction": null,
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": null,
+                "Toefl": "550",
+                "IELTS": null,
+                "CPE": null
+            },
+            "German": null,
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": null,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": null
+        },
+        "standardized_tests": {
+            "GMAT": "As part of the application process (not compulsory), you can improve your chances of securing a place in the programme by taking a GMAT, GRE, or TM-WiSo test.",
+            "GRE": "As part of the application process (not compulsory), you can improve your chances of securing a place in the programme by taking a GMAT, GRE, or TM-WiSo test."
+        },
+        "application_deadline": [
+            "2025-05-15"
+        ]
+    },
+    "field_of_study": [
+        "Law, Economics and Social Sciences"
+    ],
+    "subject": [
+        "Business and Economics",
+        "Law, Economics and Social Sciences in general",
+        "Public Administration",
+        "Political Science"
+    ],
+    "application_link": "https://www.uni-hohenheim.de/en/ibe-apply"
+}

@@ -1,0 +1,68 @@
+{
+    "course_details": {
+        "course_title": "Geomatics for Mineral Resource Management (MGMRM)",
+        "university": "TU Bergakademie Freiberg",
+        "location": "Freiberg",
+        "duration": "4 semesters",
+        "tuition_fees": "None",
+        "language_of_instruction": null,
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": null,
+                "Toefl": null,
+                "IELTS": null,
+                "CPE": null
+            },
+            "German": "Goethe B1 certificate: B1 – German for independent usage, or an equivalent form of proof",
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": null,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": null
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": null
+        },
+        "application_deadline": [
+            "2024-04-15"
+        ]
+    },
+    "field_of_study": [
+        "Mathematics, Natural Sciences",
+        "Engineering"
+    ],
+    "subject": [
+        "Earth Sciences (excluding Geography)",
+        "Engineering in general",
+        "Mining, Metallurgy",
+        "Surveying"
+    ],
+    "application_link": "Application Portal of TU Bergakademie Freiberg"
+}

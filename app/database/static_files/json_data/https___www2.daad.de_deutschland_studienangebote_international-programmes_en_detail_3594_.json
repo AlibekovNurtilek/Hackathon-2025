@@ -1,0 +1,66 @@
+{
+    "course_details": {
+        "course_title": "Financial Economics (FINEC)",
+        "university": "Otto von Guericke University Magdeburg",
+        "location": "Magdeburg",
+        "duration": "4 semesters",
+        "tuition_fees": "None",
+        "language_of_instruction": "English",
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": "C1",
+                "Toefl": null,
+                "IELTS": null,
+                "CPE": null
+            },
+            "German": "German skills are not required for this study programme but are important for getting around in Germany and employment in Germany.",
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": 1.0,
+        "is_german": true,
+        "application_process": {
+            "uni_assist": "required"
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": null
+        },
+        "application_deadline": [
+            "2024-07-15"
+        ]
+    },
+    "field_of_study": [
+        "Law, Economics and Social Sciences"
+    ],
+    "subject": [
+        "Business and Economics",
+        "Law, Economics and Social Sciences in general"
+    ],
+    "gpa": 1.0,
+    "application_link": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3594/"
+}

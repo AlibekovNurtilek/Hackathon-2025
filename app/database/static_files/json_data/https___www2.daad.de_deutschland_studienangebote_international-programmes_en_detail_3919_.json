@@ -1,0 +1,66 @@
+{
+    "course_details": {
+        "course_title": "International Management (MBA)",
+        "university": "Nürtingen-Geislingen University",
+        "location": "Nürtingen",
+        "duration": "3 semesters",
+        "tuition_fees": "1,500 EUR",
+        "language_of_instruction": null,
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": "B2",
+                "Toefl": null,
+                "IELTS": null,
+                "CPE": null
+            },
+            "German": "A1 level: DSH, TestDaF, or equivalent proof",
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": null,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": "not required"
+        },
+        "standardized_tests": {
+            "GMAT": "at least 500 points",
+            "GRE": null
+        },
+        "application_deadline": [
+            "2024-11-15",
+            "2024-06-15"
+        ]
+    },
+    "field_of_study": [
+        "Law, Economics and Social Sciences"
+    ],
+    "subject": [
+        "Business and Economics",
+        "Law, Economics and Social Sciences in general"
+    ],
+    "application_link": "https://www.hfwu.de/en/studium/application/master-application/"
+}

@@ -1,0 +1,70 @@
+{
+    "course_details": {
+        "course_title": "Battery Materials and Technology (Master of Science)",
+        "university": "University of Bayreuth",
+        "location": "Bayreuth",
+        "duration": "4 semesters",
+        "tuition_fees": "None",
+        "language_of_instruction": null,
+        "mode_of_study": null
+    },
+    "requirements": {
+        "language_requirements": {
+            "English": {
+                "level": "B2",
+                "Toefl": null,
+                "IELTS": null,
+                "CPE": null
+            },
+            "German": "level A1; it is recommended that candidates submit their German A1 language certificate at the time of admission. In case this isn’t possible, they must submit it by the end of the second semester.",
+            "French": null,
+            "Latin or Ancient Greek": null,
+            "modern foreign language": null,
+            "Chinese": null,
+            "Spanish": null,
+            "Italian": null,
+            "Latin": null,
+            "Slavic": null,
+            "Romance language": null,
+            "ancient Greek or Latin": null,
+            "Romance": null,
+            "Arabic": null,
+            "Persian": null,
+            "Turkish": null,
+            "Hebrew": null,
+            "Portuguese": null,
+            "Japanese": null,
+            "Korean": null,
+            "Sumerian": null,
+            "Armenian": null,
+            "Kurdish": null,
+            "Ottoman": null,
+            "Syrian-Aramaic": null
+        },
+        "GPA": null,
+        "is_german": null,
+        "application_process": {
+            "uni_assist": null
+        },
+        "standardized_tests": {
+            "GMAT": null,
+            "GRE": null
+        },
+        "application_deadline": [
+            "2024-07-15",
+            "2024-04-01",
+            "2025-01-15",
+            "2024-10-01"
+        ]
+    },
+    "field_of_study": [
+        "Mathematics, Natural Sciences",
+        "Engineering"
+    ],
+    "subject": [
+        "Engineering in general",
+        "Mathematics, Natural Sciences in general",
+        "Chemistry"
+    ],
+    "application_link": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8290/"
+}

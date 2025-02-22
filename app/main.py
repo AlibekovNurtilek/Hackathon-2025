@@ -22,6 +22,7 @@ Base.metadata.create_all(bind=engine)
 
 # Подключаем маршруты
 app.include_router(users.router)
+app.include_router(items.router)
 
 @app.get("/")
 def home():

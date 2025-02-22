@@ -65,6 +65,14 @@
         "documentation": {}
     },
     {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
         "label": "app.database.models",
         "kind": 6,
         "isExtraImport": true,
@@ -162,6 +170,38 @@
         "documentation": {}
     },
     {
+        "label": "Program",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "FieldOfStudy",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "Subject",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "Requirement",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
         "label": "User",
         "importPath": "app.database.models",
         "description": "app.database.models",
@@ -219,6 +259,14 @@
     },
     {
         "label": "Base",
+        "importPath": "app.database.database",
+        "description": "app.database.database",
+        "isExtraImport": true,
+        "detail": "app.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
         "importPath": "app.database.database",
         "description": "app.database.database",
         "isExtraImport": true,
@@ -427,6 +475,22 @@
         "documentation": {}
     },
     {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "Request",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -480,6 +544,30 @@
         "description": "fastapi",
         "isExtraImport": true,
         "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "or_",
+        "importPath": "sqlalchemy.sql",
+        "description": "sqlalchemy.sql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql",
         "documentation": {}
     },
     {
@@ -909,6 +997,24 @@
         "description": "app.database.models",
         "peekOfCode": "fields_subjects = Table(\n    \"fields_subjects\", Base.metadata,\n    Column(\"field_id\", Integer, ForeignKey(\"fields_of_study.id\"), primary_key=True),\n    Column(\"subject_id\", Integer, ForeignKey(\"subjects.id\"), primary_key=True)\n)\n# Таблицы\nclass University(Base):\n    __tablename__ = \"universities\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, nullable=True)",
         "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "filter_programs",
+        "kind": 2,
+        "importPath": "app.routes.items",
+        "description": "app.routes.items",
+        "peekOfCode": "def filter_programs(filters: Dict, db: Session = Depends(get_db)):\n    # 1️⃣ Начинаем с фильтрации по `field_of_study` и `subject`, если они указаны\n    query = db.query(Program)\n    if filters.get(\"field_of_study\"):\n        query = query.join(Program.fields_of_study).filter(FieldOfStudy.name.ilike(f\"%{filters['field_of_study']}%\"))\n    if filters.get(\"subject\"):\n        query = query.join(Program.subjects).filter(Subject.name.in_(filters[\"subject\"]))\n    # Получаем предварительный список программ после первого фильтра\n    programs = query.all()\n    # 2️⃣ Теперь проверяем `requirements` программ на соответствие `requirements` пользователя",
+        "detail": "app.routes.items",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.routes.items",
+        "description": "app.routes.items",
+        "peekOfCode": "router = APIRouter()\n@router.post(\"/programs/filter\", summary=\"Фильтрация программ по JSON-фильтру\")\ndef filter_programs(filters: Dict, db: Session = Depends(get_db)):\n    # 1️⃣ Начинаем с фильтрации по `field_of_study` и `subject`, если они указаны\n    query = db.query(Program)\n    if filters.get(\"field_of_study\"):\n        query = query.join(Program.fields_of_study).filter(FieldOfStudy.name.ilike(f\"%{filters['field_of_study']}%\"))\n    if filters.get(\"subject\"):\n        query = query.join(Program.subjects).filter(Subject.name.in_(filters[\"subject\"]))\n    # Получаем предварительный список программ после первого фильтра",
+        "detail": "app.routes.items",
         "documentation": {}
     },
     {

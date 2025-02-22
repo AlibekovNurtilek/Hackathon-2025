@@ -178,6 +178,14 @@
         "documentation": {}
     },
     {
+        "label": "Program",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
         "label": "SessionLocal",
         "importPath": "app.database.database",
         "description": "app.database.database",
@@ -235,6 +243,14 @@
     },
     {
         "label": "Base",
+        "importPath": "app.database.database",
+        "description": "app.database.database",
+        "isExtraImport": true,
+        "detail": "app.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
         "importPath": "app.database.database",
         "description": "app.database.database",
         "isExtraImport": true,
@@ -900,7 +916,7 @@
         "kind": 2,
         "importPath": "app.routes.users",
         "description": "app.routes.users",
-        "peekOfCode": "def register(user_data: UserCreate, db: Session = Depends(get_db)):\n    db_user = create_user(db, user_data)\n    return {\"message\": \"User registered successfully\", \"username\": db_user.username}\n# Эндпоинт для логина и получения JWT\n@router.post(\"/token\", response_model=Token)\ndef login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):\n    user = authenticate_user(db, form_data.username, form_data.password)\n    if not user:\n        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail=\"Invalid credentials\")\n    access_token, refresh_token = generate_tokens(user, db)",
+        "peekOfCode": "def register(user_data: UserCreate, db: Session = Depends(get_db)):\n    # Создаем пользователя\n    db_user = create_user(db, user_data)\n    # Генерируем токены для нового пользователя\n    access_token, refresh_token = generate_tokens(db_user, db)\n    return {\n        \"access_token\": access_token,\n        \"refresh_token\": refresh_token,\n        \"token_type\": \"bearer\"\n    }",
         "detail": "app.routes.users",
         "documentation": {}
     },
@@ -927,7 +943,7 @@
         "kind": 5,
         "importPath": "app.routes.users",
         "description": "app.routes.users",
-        "peekOfCode": "router = APIRouter(prefix=\"/users\", tags=[\"Users\"])\n# Эндпоинт для регистрации пользователя\n@router.post(\"/register\")\ndef register(user_data: UserCreate, db: Session = Depends(get_db)):\n    db_user = create_user(db, user_data)\n    return {\"message\": \"User registered successfully\", \"username\": db_user.username}\n# Эндпоинт для логина и получения JWT\n@router.post(\"/token\", response_model=Token)\ndef login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):\n    user = authenticate_user(db, form_data.username, form_data.password)",
+        "peekOfCode": "router = APIRouter(prefix=\"/users\", tags=[\"Users\"])\n@router.post(\"/register\", response_model=Token)\ndef register(user_data: UserCreate, db: Session = Depends(get_db)):\n    # Создаем пользователя\n    db_user = create_user(db, user_data)\n    # Генерируем токены для нового пользователя\n    access_token, refresh_token = generate_tokens(db_user, db)\n    return {\n        \"access_token\": access_token,\n        \"refresh_token\": refresh_token,",
         "detail": "app.routes.users",
         "documentation": {}
     },
@@ -1109,6 +1125,24 @@
         "description": "config",
         "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = 30",
         "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "get_unique_values",
+        "kind": 2,
+        "importPath": "getfeats",
+        "description": "getfeats",
+        "peekOfCode": "def get_unique_values():\n    db = SessionLocal()\n    try:\n        # Извлекаем уникальные значения (результат — список кортежей)\n        locations = db.query(Program.location).distinct().all()\n        languages = db.query(Program.language).distinct().all()\n        modes = db.query(Program.mode_of_study).distinct().all()\n        # Преобразуем списки кортежей в множества строк, исключая пустые значения\n        unique_locations = sorted({loc[0] for loc in locations if loc[0]})\n        unique_languages = sorted({lang[0] for lang in languages if lang[0]})",
+        "detail": "getfeats",
+        "documentation": {}
+    },
+    {
+        "label": "save_unique_values_to_json",
+        "kind": 2,
+        "importPath": "getfeats",
+        "description": "getfeats",
+        "peekOfCode": "def save_unique_values_to_json(filepath=\"unique_fields.json\"):\n    unique_data = get_unique_values()\n    with open(filepath, \"w\", encoding=\"utf-8\") as f:\n        json.dump(unique_data, f, ensure_ascii=False, indent=4)\n    print(f\"Уникальные значения сохранены в {filepath}\")\nif __name__ == \"__main__\":\n    save_unique_values_to_json()",
+        "detail": "getfeats",
         "documentation": {}
     }
 ]

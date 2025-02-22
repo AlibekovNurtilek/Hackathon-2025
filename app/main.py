@@ -18,7 +18,7 @@ print(f"📌 Используемая БД: {engine.url}")
 
 Base.metadata.create_all(bind=engine)
 
-#start_import()
+start_import()
 
 # Подключаем маршруты
 app.include_router(users.router)

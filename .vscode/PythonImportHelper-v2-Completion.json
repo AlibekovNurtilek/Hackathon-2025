@@ -202,6 +202,14 @@
         "documentation": {}
     },
     {
+        "label": "program_requirements",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
         "label": "User",
         "importPath": "app.database.models",
         "description": "app.database.models",
@@ -459,11 +467,28 @@
         "documentation": {}
     },
     {
+        "label": "or_",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "declarative_base",
         "importPath": "sqlalchemy.ext.declarative",
         "description": "sqlalchemy.ext.declarative",
         "isExtraImport": true,
         "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
         "documentation": {}
     },
     {
@@ -536,30 +561,6 @@
         "description": "fastapi",
         "isExtraImport": true,
         "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "or_",
-        "importPath": "sqlalchemy.sql",
-        "description": "sqlalchemy.sql",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.sql",
         "documentation": {}
     },
     {
@@ -992,11 +993,20 @@
         "documentation": {}
     },
     {
+        "label": "extract_number_from_string",
+        "kind": 2,
+        "importPath": "app.routes.items",
+        "description": "app.routes.items",
+        "peekOfCode": "def extract_number_from_string(text):\n    \"\"\"Извлекает числовое значение (GPA, GRE, IELTS и т. д.) из строки.\"\"\"\n    if not text:\n        return None\n    numbers = re.findall(r\"\\d+\\.?\\d*\", text)  # Ищем числа (с точкой или без)\n    return float(numbers[0]) if numbers else None  # Берём первое найденное число\n@router.post(\"/programs/filter\", summary=\"Фильтрация программ по JSON-фильтру\")\ndef filter_programs(filters: dict, db: Session = Depends(get_db)):\n    query = db.query(Program)\n    # 1️⃣ Фильтр по `location` (учитывает массив значений)",
+        "detail": "app.routes.items",
+        "documentation": {}
+    },
+    {
         "label": "filter_programs",
         "kind": 2,
         "importPath": "app.routes.items",
         "description": "app.routes.items",
-        "peekOfCode": "def filter_programs(filters: Dict, db: Session = Depends(get_db)):\n    # 1️⃣ Начинаем с фильтрации по `field_of_study` и `subject`, если они указаны\n    query = db.query(Program)\n    if filters.get(\"field_of_study\"):\n        query = query.join(Program.fields_of_study).filter(FieldOfStudy.name.ilike(f\"%{filters['field_of_study']}%\"))\n    if filters.get(\"subject\"):\n        query = query.join(Program.subjects).filter(Subject.name.in_(filters[\"subject\"]))\n    # Получаем предварительный список программ после первого фильтра\n    programs = query.all()\n    # 2️⃣ Теперь проверяем `requirements` программ на соответствие `requirements` пользователя",
+        "peekOfCode": "def filter_programs(filters: dict, db: Session = Depends(get_db)):\n    query = db.query(Program)\n    # 1️⃣ Фильтр по `location` (учитывает массив значений)\n    user_locations = filters.get(\"course_details\", {}).get(\"location\", [])\n    if user_locations:\n        query = query.filter(\n            or_(*[Program.location.ilike(f\"%{loc}%\") for loc in user_locations])\n        )\n    # 2️⃣ Фильтр по `field_of_study` и `subject`\n    if filters.get(\"field_of_study\"):",
         "detail": "app.routes.items",
         "documentation": {}
     },
@@ -1005,7 +1015,7 @@
         "kind": 5,
         "importPath": "app.routes.items",
         "description": "app.routes.items",
-        "peekOfCode": "router = APIRouter()\n@router.post(\"/programs/filter\", summary=\"Фильтрация программ по JSON-фильтру\")\ndef filter_programs(filters: Dict, db: Session = Depends(get_db)):\n    # 1️⃣ Начинаем с фильтрации по `field_of_study` и `subject`, если они указаны\n    query = db.query(Program)\n    if filters.get(\"field_of_study\"):\n        query = query.join(Program.fields_of_study).filter(FieldOfStudy.name.ilike(f\"%{filters['field_of_study']}%\"))\n    if filters.get(\"subject\"):\n        query = query.join(Program.subjects).filter(Subject.name.in_(filters[\"subject\"]))\n    # Получаем предварительный список программ после первого фильтра",
+        "peekOfCode": "router = APIRouter()\ndef extract_number_from_string(text):\n    \"\"\"Извлекает числовое значение (GPA, GRE, IELTS и т. д.) из строки.\"\"\"\n    if not text:\n        return None\n    numbers = re.findall(r\"\\d+\\.?\\d*\", text)  # Ищем числа (с точкой или без)\n    return float(numbers[0]) if numbers else None  # Берём первое найденное число\n@router.post(\"/programs/filter\", summary=\"Фильтрация программ по JSON-фильтру\")\ndef filter_programs(filters: dict, db: Session = Depends(get_db)):\n    query = db.query(Program)",
         "detail": "app.routes.items",
         "documentation": {}
     },

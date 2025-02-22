@@ -1,0 +1,1114 @@
+[
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "app.database.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "FieldOfStudy",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "Subject",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "fields_subjects",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "University",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "Program",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "Requirement",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "FieldOfStudy",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "Subject",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "program_requirements",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "program_fields",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "program_subjects",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "isExtraImport": true,
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "app.database.database",
+        "description": "app.database.database",
+        "isExtraImport": true,
+        "detail": "app.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "app.database.database",
+        "description": "app.database.database",
+        "isExtraImport": true,
+        "detail": "app.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.database.database",
+        "description": "app.database.database",
+        "isExtraImport": true,
+        "detail": "app.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.database.database",
+        "description": "app.database.database",
+        "isExtraImport": true,
+        "detail": "app.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.database.database",
+        "description": "app.database.database",
+        "isExtraImport": true,
+        "detail": "app.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.database.database",
+        "description": "app.database.database",
+        "isExtraImport": true,
+        "detail": "app.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "app.database.database",
+        "description": "app.database.database",
+        "isExtraImport": true,
+        "detail": "app.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.database.database",
+        "description": "app.database.database",
+        "isExtraImport": true,
+        "detail": "app.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "import_fos",
+        "importPath": "app.database.import_data.import_fos",
+        "description": "app.database.import_data.import_fos",
+        "isExtraImport": true,
+        "detail": "app.database.import_data.import_fos",
+        "documentation": {}
+    },
+    {
+        "label": "import_all_programs",
+        "importPath": "app.database.import_data.import_programs",
+        "description": "app.database.import_data.import_programs",
+        "isExtraImport": true,
+        "detail": "app.database.import_data.import_programs",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Float",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Table",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Date",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Table",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordRequestForm",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "importPath": "app.services.user_service",
+        "description": "app.services.user_service",
+        "isExtraImport": true,
+        "detail": "app.services.user_service",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate_user",
+        "importPath": "app.services.user_service",
+        "description": "app.services.user_service",
+        "isExtraImport": true,
+        "detail": "app.services.user_service",
+        "documentation": {}
+    },
+    {
+        "label": "generate_tokens",
+        "importPath": "app.services.user_service",
+        "description": "app.services.user_service",
+        "isExtraImport": true,
+        "detail": "app.services.user_service",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jwt",
+        "description": "jwt",
+        "detail": "jwt",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "ALGORITHM",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "ACCESS_TOKEN_EXPIRE_MINUTES",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "REFRESH_TOKEN_EXPIRE_DAYS",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "ALGORITHM",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "hash_password",
+        "importPath": "app.utils",
+        "description": "app.utils",
+        "isExtraImport": true,
+        "detail": "app.utils",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "importPath": "app.utils",
+        "description": "app.utils",
+        "isExtraImport": true,
+        "detail": "app.utils",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "app.utils",
+        "description": "app.utils",
+        "isExtraImport": true,
+        "detail": "app.utils",
+        "documentation": {}
+    },
+    {
+        "label": "create_refresh_token",
+        "importPath": "app.utils",
+        "description": "app.utils",
+        "isExtraImport": true,
+        "detail": "app.utils",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "users",
+        "importPath": "app.routes",
+        "description": "app.routes",
+        "isExtraImport": true,
+        "detail": "app.routes",
+        "documentation": {}
+    },
+    {
+        "label": "items",
+        "importPath": "app.routes",
+        "description": "app.routes",
+        "isExtraImport": true,
+        "detail": "app.routes",
+        "documentation": {}
+    },
+    {
+        "label": "start_import",
+        "importPath": "app.database.import_data.start_import",
+        "description": "app.database.import_data.start_import",
+        "isExtraImport": true,
+        "detail": "app.database.import_data.start_import",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "import_fos",
+        "kind": 2,
+        "importPath": "app.database.import_data.import_fos",
+        "description": "app.database.import_data.import_fos",
+        "peekOfCode": "def import_fos():\n    \"\"\"Импортирует данные в БД, если таблицы пустые.\"\"\"\n    db = SessionLocal()\n    # Проверяем, есть ли уже данные\n    if db.query(FieldOfStudy).first() is None:\n        print(\"⏳ Импортируем данные в базу...\")\n        with open(\"app/database/static_files/fields_of_study.json\", \"r\", encoding=\"utf-8\") as f:\n            data = json.load(f)\n        subjects_cache = {}\n        try:",
+        "detail": "app.database.import_data.import_fos",
+        "documentation": {}
+    },
+    {
+        "label": "process_json_file",
+        "kind": 2,
+        "importPath": "app.database.import_data.import_programs",
+        "description": "app.database.import_data.import_programs",
+        "peekOfCode": "def process_json_file(filepath, db):\n    \"\"\" Обрабатывает один JSON-файл и загружает его в базу \"\"\"\n    with open(filepath, \"r\", encoding=\"utf-8\") as f:\n        data = json.load(f)\n    # Извлекаем данные из JSON\n    course_details = data.get(\"course_details\", {})\n    requirements_data = data.get(\"requirements\", {})\n    fields_of_study_data = data.get(\"field_of_study\", [])\n    subjects_data = data.get(\"subject\", [])\n    application_link = data.get(\"application_link\", None)",
+        "detail": "app.database.import_data.import_programs",
+        "documentation": {}
+    },
+    {
+        "label": "import_all_programs",
+        "kind": 2,
+        "importPath": "app.database.import_data.import_programs",
+        "description": "app.database.import_data.import_programs",
+        "peekOfCode": "def import_all_programs():\n    \"\"\" Обрабатывает все JSON-файлы в папке DATA_DIR \"\"\"\n    db = SessionLocal()\n    try:\n        files_processed = 0\n        for filename in os.listdir(DATA_DIR):\n            if filename.endswith(\".json\"):\n                filepath = os.path.join(DATA_DIR, filename)\n                process_json_file(filepath, db)\n                files_processed += 1",
+        "detail": "app.database.import_data.import_programs",
+        "documentation": {}
+    },
+    {
+        "label": "DATA_DIR",
+        "kind": 5,
+        "importPath": "app.database.import_data.import_programs",
+        "description": "app.database.import_data.import_programs",
+        "peekOfCode": "DATA_DIR = \"app/database/static_files/json_data\"\ndef process_json_file(filepath, db):\n    \"\"\" Обрабатывает один JSON-файл и загружает его в базу \"\"\"\n    with open(filepath, \"r\", encoding=\"utf-8\") as f:\n        data = json.load(f)\n    # Извлекаем данные из JSON\n    course_details = data.get(\"course_details\", {})\n    requirements_data = data.get(\"requirements\", {})\n    fields_of_study_data = data.get(\"field_of_study\", [])\n    subjects_data = data.get(\"subject\", [])",
+        "detail": "app.database.import_data.import_programs",
+        "documentation": {}
+    },
+    {
+        "label": "start_import",
+        "kind": 2,
+        "importPath": "app.database.import_data.start_import",
+        "description": "app.database.import_data.start_import",
+        "peekOfCode": "def start_import():\n    import_fos()\n    import_all_programs()",
+        "detail": "app.database.import_data.start_import",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "app.database.database",
+        "description": "app.database.database",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "app.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "kind": 5,
+        "importPath": "app.database.database",
+        "description": "app.database.database",
+        "peekOfCode": "DATABASE_URL = \"sqlite:///./app/database/database.db\"\n# Подключение к SQLite\nengine = create_engine(DATABASE_URL, connect_args={\"check_same_thread\": False})\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\n# Базовый класс для моделей\nBase = declarative_base()\n# Функция для получения сессии БД\ndef get_db():\n    db = SessionLocal()\n    try:",
+        "detail": "app.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "app.database.database",
+        "description": "app.database.database",
+        "peekOfCode": "engine = create_engine(DATABASE_URL, connect_args={\"check_same_thread\": False})\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\n# Базовый класс для моделей\nBase = declarative_base()\n# Функция для получения сессии БД\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:",
+        "detail": "app.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "app.database.database",
+        "description": "app.database.database",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\n# Базовый класс для моделей\nBase = declarative_base()\n# Функция для получения сессии БД\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "app.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "app.database.database",
+        "description": "app.database.database",
+        "peekOfCode": "Base = declarative_base()\n# Функция для получения сессии БД\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "app.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id = Column(Integer, primary_key=True, index=True)\n    username = Column(String, unique=True, index=True)\n    hashed_password = Column(String)\n    refresh_token = Column(String, nullable=True)  # Добавляем поле\nfrom sqlalchemy import Column, Integer, String, ForeignKey, Table\nfrom sqlalchemy.orm import relationship\nfrom app.database.database import Base\n# Ассоциационные таблицы (Many-to-Many)",
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "University",
+        "kind": 6,
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "peekOfCode": "class University(Base):\n    __tablename__ = \"universities\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, nullable=True)\n    location = Column(String, nullable=True)\n    programs = relationship(\"Program\", back_populates=\"university\")\nclass Program(Base):\n    __tablename__ = \"programs\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, nullable=True)",
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "Program",
+        "kind": 6,
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "peekOfCode": "class Program(Base):\n    __tablename__ = \"programs\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, nullable=True)\n    university_id = Column(Integer, ForeignKey(\"universities.id\"), nullable=True)\n    location = Column(String, nullable=True)\n    duration = Column(String, nullable=True)\n    tuition_fees = Column(String, nullable=True)\n    language = Column(String, nullable=True)\n    mode_of_study = Column(String, nullable=True)",
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "Requirement",
+        "kind": 6,
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "peekOfCode": "class Requirement(Base):\n    __tablename__ = \"requirements\"\n    id = Column(Integer, primary_key=True, index=True)\n    type = Column(String, nullable=True)\n    detail = Column(String, nullable=True)\n    programs = relationship(\"Program\", secondary=program_requirements, back_populates=\"requirements\")\nclass FieldOfStudy(Base):\n    __tablename__ = \"fields_of_study\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, nullable=True)",
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "FieldOfStudy",
+        "kind": 6,
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "peekOfCode": "class FieldOfStudy(Base):\n    __tablename__ = \"fields_of_study\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, nullable=True)\n    programs = relationship(\"Program\", secondary=program_fields, back_populates=\"fields_of_study\")\n    subjects = relationship(\"Subject\", secondary=fields_subjects, back_populates=\"fields_of_study\")\nclass Subject(Base):\n    __tablename__ = \"subjects\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, nullable=True)",
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "Subject",
+        "kind": 6,
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "peekOfCode": "class Subject(Base):\n    __tablename__ = \"subjects\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, nullable=True)\n    programs = relationship(\"Program\", secondary=program_subjects, back_populates=\"subjects\")\n    fields_of_study = relationship(\"FieldOfStudy\", secondary=fields_subjects, back_populates=\"subjects\")",
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "program_requirements",
+        "kind": 5,
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "peekOfCode": "program_requirements = Table(\n    \"program_requirements\", Base.metadata,\n    Column(\"program_id\", Integer, ForeignKey(\"programs.id\"), primary_key=True),\n    Column(\"requirement_id\", Integer, ForeignKey(\"requirements.id\"), primary_key=True),\n    Column(\"min_score\", String, nullable=True),  # Из Float в String\n    Column(\"is_mandatory\", String, nullable=True)  # Из Boolean в String\n)\nprogram_fields = Table(\n    \"program_fields\", Base.metadata,\n    Column(\"program_id\", Integer, ForeignKey(\"programs.id\"), primary_key=True),",
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "program_fields",
+        "kind": 5,
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "peekOfCode": "program_fields = Table(\n    \"program_fields\", Base.metadata,\n    Column(\"program_id\", Integer, ForeignKey(\"programs.id\"), primary_key=True),\n    Column(\"field_id\", Integer, ForeignKey(\"fields_of_study.id\"), primary_key=True)\n)\nprogram_subjects = Table(\n    \"program_subjects\", Base.metadata,\n    Column(\"program_id\", Integer, ForeignKey(\"programs.id\"), primary_key=True),\n    Column(\"subject_id\", Integer, ForeignKey(\"subjects.id\"), primary_key=True)\n)",
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "program_subjects",
+        "kind": 5,
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "peekOfCode": "program_subjects = Table(\n    \"program_subjects\", Base.metadata,\n    Column(\"program_id\", Integer, ForeignKey(\"programs.id\"), primary_key=True),\n    Column(\"subject_id\", Integer, ForeignKey(\"subjects.id\"), primary_key=True)\n)\nfields_subjects = Table(\n    \"fields_subjects\", Base.metadata,\n    Column(\"field_id\", Integer, ForeignKey(\"fields_of_study.id\"), primary_key=True),\n    Column(\"subject_id\", Integer, ForeignKey(\"subjects.id\"), primary_key=True)\n)",
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "fields_subjects",
+        "kind": 5,
+        "importPath": "app.database.models",
+        "description": "app.database.models",
+        "peekOfCode": "fields_subjects = Table(\n    \"fields_subjects\", Base.metadata,\n    Column(\"field_id\", Integer, ForeignKey(\"fields_of_study.id\"), primary_key=True),\n    Column(\"subject_id\", Integer, ForeignKey(\"subjects.id\"), primary_key=True)\n)\n# Таблицы\nclass University(Base):\n    __tablename__ = \"universities\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, nullable=True)",
+        "detail": "app.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "app.routes.users",
+        "description": "app.routes.users",
+        "peekOfCode": "def register(user_data: UserCreate, db: Session = Depends(get_db)):\n    db_user = create_user(db, user_data)\n    return {\"message\": \"User registered successfully\", \"username\": db_user.username}\n# Эндпоинт для логина и получения JWT\n@router.post(\"/token\", response_model=Token)\ndef login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):\n    user = authenticate_user(db, form_data.username, form_data.password)\n    if not user:\n        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail=\"Invalid credentials\")\n    access_token, refresh_token = generate_tokens(user, db)",
+        "detail": "app.routes.users",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "app.routes.users",
+        "description": "app.routes.users",
+        "peekOfCode": "def login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):\n    user = authenticate_user(db, form_data.username, form_data.password)\n    if not user:\n        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail=\"Invalid credentials\")\n    access_token, refresh_token = generate_tokens(user, db)\n    return {\n        \"access_token\": access_token,\n        \"refresh_token\": refresh_token,\n        \"token_type\": \"bearer\"\n    }",
+        "detail": "app.routes.users",
+        "documentation": {}
+    },
+    {
+        "label": "refresh_token",
+        "kind": 2,
+        "importPath": "app.routes.users",
+        "description": "app.routes.users",
+        "peekOfCode": "def refresh_token(refresh_token: str, db: Session = Depends(get_db)):\n    try:\n        payload = jwt.decode(refresh_token, SECRET_KEY, algorithms=[ALGORITHM])\n        user_id = payload.get(\"user_id\")\n        user = db.query(User).filter(User.id == user_id, User.refresh_token == refresh_token).first()\n        if not user:\n            raise HTTPException(status_code=401, detail=\"Invalid refresh token\")\n        access_token, new_refresh_token = generate_tokens(user, db)\n        return {\n            \"access_token\": access_token,",
+        "detail": "app.routes.users",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.routes.users",
+        "description": "app.routes.users",
+        "peekOfCode": "router = APIRouter(prefix=\"/users\", tags=[\"Users\"])\n# Эндпоинт для регистрации пользователя\n@router.post(\"/register\")\ndef register(user_data: UserCreate, db: Session = Depends(get_db)):\n    db_user = create_user(db, user_data)\n    return {\"message\": \"User registered successfully\", \"username\": db_user.username}\n# Эндпоинт для логина и получения JWT\n@router.post(\"/token\", response_model=Token)\ndef login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):\n    user = authenticate_user(db, form_data.username, form_data.password)",
+        "detail": "app.routes.users",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "app.services.user_service",
+        "description": "app.services.user_service",
+        "peekOfCode": "def create_user(db: Session, user_data: UserCreate):\n    # Проверяем, существует ли уже пользователь с таким именем\n    existing_user = db.query(User).filter(User.username == user_data.username).first()\n    if existing_user:\n        raise HTTPException(\n            status_code=400,\n            detail=\"User with this username already exists\"\n        )\n    hashed_password = hash_password(user_data.password)\n    db_user = User(username=user_data.username, hashed_password=hashed_password)",
+        "detail": "app.services.user_service",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate_user",
+        "kind": 2,
+        "importPath": "app.services.user_service",
+        "description": "app.services.user_service",
+        "peekOfCode": "def authenticate_user(db: Session, username: str, password: str):\n    user = db.query(User).filter(User.username == username).first()\n    if not user or not verify_password(password, user.hashed_password):\n        return None\n    return user\n# Функция для выдачи JWT-токена при успешном входе\ndef generate_tokens(user: User, db: Session):\n    access_token_expires = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    refresh_token_expires = timedelta(days=REFRESH_TOKEN_EXPIRE_DAYS)\n    access_token = create_access_token(",
+        "detail": "app.services.user_service",
+        "documentation": {}
+    },
+    {
+        "label": "generate_tokens",
+        "kind": 2,
+        "importPath": "app.services.user_service",
+        "description": "app.services.user_service",
+        "peekOfCode": "def generate_tokens(user: User, db: Session):\n    access_token_expires = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    refresh_token_expires = timedelta(days=REFRESH_TOKEN_EXPIRE_DAYS)\n    access_token = create_access_token(\n        data={\"sub\": user.username, \"user_id\": user.id}, expires_delta=access_token_expires\n    )\n    refresh_token = create_refresh_token(\n        data={\"sub\": user.username, \"user_id\": user.id}, expires_delta=refresh_token_expires\n    )\n    # Сохраняем Refresh Token в базе",
+        "detail": "app.services.user_service",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "app.config",
+        "description": "app.config",
+        "peekOfCode": "SECRET_KEY = os.getenv(\"SECRET_KEY\", \"supersecretkey\")\nALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 1440\nREFRESH_TOKEN_EXPIRE_DAYS = 7  # Живёт 7 дней",
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "ALGORITHM",
+        "kind": 5,
+        "importPath": "app.config",
+        "description": "app.config",
+        "peekOfCode": "ALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 1440\nREFRESH_TOKEN_EXPIRE_DAYS = 7  # Живёт 7 дней",
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "ACCESS_TOKEN_EXPIRE_MINUTES",
+        "kind": 5,
+        "importPath": "app.config",
+        "description": "app.config",
+        "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = 1440\nREFRESH_TOKEN_EXPIRE_DAYS = 7  # Живёт 7 дней",
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "REFRESH_TOKEN_EXPIRE_DAYS",
+        "kind": 5,
+        "importPath": "app.config",
+        "description": "app.config",
+        "peekOfCode": "REFRESH_TOKEN_EXPIRE_DAYS = 7  # Живёт 7 дней",
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "def home():\n    return {\"message\": \"FastAPI with Conda is running!\"}",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "app = FastAPI(title=\"Hackathon-2025 API\")\n# Разрешаем CORS для всех источников (*), методов и заголовков\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],  # Разрешаем все источники\n    allow_credentials=True,\n    allow_methods=[\"*\"],  # Разрешаем все методы (GET, POST, PUT, DELETE и т. д.)\n    allow_headers=[\"*\"],  # Разрешаем все заголовки\n)\n# Создаём таблицы, если их нет",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "kind": 6,
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "peekOfCode": "class UserCreate(BaseModel):\n    username: str = Field(..., min_length=3, max_length=50, strip_whitespace=True)\n    password: str = Field(..., min_length=6, max_length=100)\n# Схема для ответа после логина (JWT-токен)\nclass Token(BaseModel):\n    access_token: str\n    refresh_token: str\n    token_type: str\n# Схема для передачи данных о пользователе\nclass UserResponse(BaseModel):",
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "kind": 6,
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "peekOfCode": "class Token(BaseModel):\n    access_token: str\n    refresh_token: str\n    token_type: str\n# Схема для передачи данных о пользователе\nclass UserResponse(BaseModel):\n    id: int\n    username: str\n    class Config:\n        from_attributes = True  # Для работы с SQLAlchemy",
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserResponse",
+        "kind": 6,
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "peekOfCode": "class UserResponse(BaseModel):\n    id: int\n    username: str\n    class Config:\n        from_attributes = True  # Для работы с SQLAlchemy",
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "hash_password",
+        "kind": 2,
+        "importPath": "app.utils",
+        "description": "app.utils",
+        "peekOfCode": "def hash_password(password: str) -> str:\n    return pwd_context.hash(password)\n# Функция для проверки пароля\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)\n# Функция для создания JWT-токена\ndef create_access_token(data: dict, expires_delta: timedelta = None) -> str:\n    to_encode = data.copy()\n    expire = datetime.utcnow() + (expires_delta or timedelta(minutes=30))\n    to_encode.update({\"exp\": expire})",
+        "detail": "app.utils",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "kind": 2,
+        "importPath": "app.utils",
+        "description": "app.utils",
+        "peekOfCode": "def verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)\n# Функция для создания JWT-токена\ndef create_access_token(data: dict, expires_delta: timedelta = None) -> str:\n    to_encode = data.copy()\n    expire = datetime.utcnow() + (expires_delta or timedelta(minutes=30))\n    to_encode.update({\"exp\": expire})\n    return jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\ndef create_refresh_token(data: dict, expires_delta: timedelta = None) -> str:\n    to_encode = data.copy()",
+        "detail": "app.utils",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "kind": 2,
+        "importPath": "app.utils",
+        "description": "app.utils",
+        "peekOfCode": "def create_access_token(data: dict, expires_delta: timedelta = None) -> str:\n    to_encode = data.copy()\n    expire = datetime.utcnow() + (expires_delta or timedelta(minutes=30))\n    to_encode.update({\"exp\": expire})\n    return jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\ndef create_refresh_token(data: dict, expires_delta: timedelta = None) -> str:\n    to_encode = data.copy()\n    expire = datetime.utcnow() + (expires_delta or timedelta(days=7))  # 7 дней по умолчанию\n    to_encode.update({\"exp\": expire})\n    return jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)",
+        "detail": "app.utils",
+        "documentation": {}
+    },
+    {
+        "label": "create_refresh_token",
+        "kind": 2,
+        "importPath": "app.utils",
+        "description": "app.utils",
+        "peekOfCode": "def create_refresh_token(data: dict, expires_delta: timedelta = None) -> str:\n    to_encode = data.copy()\n    expire = datetime.utcnow() + (expires_delta or timedelta(days=7))  # 7 дней по умолчанию\n    to_encode.update({\"exp\": expire})\n    return jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)",
+        "detail": "app.utils",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_context",
+        "kind": 5,
+        "importPath": "app.utils",
+        "description": "app.utils",
+        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n# Функция для хэширования пароля\ndef hash_password(password: str) -> str:\n    return pwd_context.hash(password)\n# Функция для проверки пароля\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)\n# Функция для создания JWT-токена\ndef create_access_token(data: dict, expires_delta: timedelta = None) -> str:\n    to_encode = data.copy()",
+        "detail": "app.utils",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "SECRET_KEY = os.getenv(\"SECRET_KEY\", \"supersecretkey\")\nALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 30",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "ALGORITHM",
+        "kind": 5,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "ALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 30",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "ACCESS_TOKEN_EXPIRE_MINUTES",
+        "kind": 5,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = 30",
+        "detail": "config",
+        "documentation": {}
+    }
+]
